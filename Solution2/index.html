@@ -7,20 +7,16 @@
 		<title>ColourSock</title>
 		<meta name="description" content="ColourSock" />
 		<meta name="keywords" content="ClourSock" />
-    <meta name="author" content="Codrops" />
+		<meta name="author" content="Codrops" />
     
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="PreloadingEffect/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="PreloadingEffect/css/preloadEffects.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-    <script src="PreloadingEffect/js/modernizr.custom.js"></script>
-    
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="PreloadingEffect/css/preloadEffects.css" />		
+		<link rel="stylesheet" type="text/css" href="css/carosel.css" />
+		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-      html, body, .row{
-        height:100%;
-      }
-
+		
+		
     </style>
 	</head>
 	<body>
@@ -38,36 +34,83 @@
 
 			<!-- main content -->
 			<div class="ip-main">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6">   
-							<h1>We are there!</h1>
-							<input id="burger-menu" type="checkbox" />
-							
-							<label for="burger-menu">
-									<span></span>
-									<span></span>
-									<span></span>
-							</label>
-							
-							<nav>    
-								<ul>
-									<li><a href="#">Link #1</a></li>
-									<li><a href="#">Link #2</a></li>
-									<li><a href="#">Link #3</a></li>
-								</ul>  
-							</nav>
-          </div>
-          <div class="col-lg-8 col-md-8 bg_right col-sm-6">
-                <img src="img/MainImg.png">
-          </div>
+				<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-6">   
+									<h1>We are there 1</h1>
+								</div>
+								<div class="col-lg-8 col-md-8 bg_right col-sm-6">
+									<img src="img/MainImg.png">
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-6">   
+									<h1>We are there 2</h1>
+								</div>
+								<div class="col-lg-8 col-md-8 bg_right col-sm-6">
+									<img src="img/MainImg.png">
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-6">   
+									<h1>We are there 3</h1>
+								</div>
+								<div class="col-lg-8 col-md-8 bg_right col-sm-6">
+									<img src="img/MainImg.png">
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-6">   
+									<h1>We are there 4</h1>
+								</div>
+								<div class="col-lg-8 col-md-8 bg_right col-sm-6">
+									<img src="img/MainImg.png">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
 			</div>
-		</div><!-- /container -->
+		</div>
+		
+		<!-- /scripts -->
+		<script src="PreloadingEffect/js/modernizr.custom.js"></script>
 		<script src="PreloadingEffect/js/classie.js"></script>
 		<script src="PreloadingEffect/js/pathLoader.js"></script>
-    <script src="PreloadingEffect/js/main.js"></script>
+		<script src="PreloadingEffect/js/main.js"></script>
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
