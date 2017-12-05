@@ -13,6 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="PreloadingEffect/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="PreloadingEffect/css/preloadEffects.css" />		
 		<link rel="stylesheet" type="text/css" href="css/carosel.css" />
+		<link rel="stylesheet" type="text/css" href="css/burgerMenu.css" />
 		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
 		
@@ -47,8 +48,29 @@
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
 							<div class="row">
-								<div class="col-lg-4 col-md-4 col-sm-6">   
-									<h1>We are there 1</h1>
+								<div class="col-lg-4 col-md-4 col-sm-6"> 
+										<div id = "burger-menu-wrapper">
+												<header class="burger-header">
+													<span><img src="img/Logo.png"></span>
+													<button class="hamburger">&#9776;</button>
+													<button class="cross">&#735;</button>
+												</header>
+														
+												<div class="menu">
+													<ul class="menu-ul">
+														<a href="#"><li>home</li></a>
+														<a href="#"><li>our story</li></a>
+														<a href="#"><li>what we do</li></a>
+														<a href="#"><li>projects</li></a>
+														<a href="#"><li>the crew</li></a>
+														<a href="#"><li>get in touch</li></a>
+													</ul>
+													<ul class="menu-ul-other">
+														<a href="#"><li>+ join our army</li></a>
+													</ul>
+												</div> 
+										</div>  
+
 								</div>
 								<div class="col-lg-8 col-md-8 bg_right col-sm-6">
 									<img src="img/MainImg.png">
@@ -59,7 +81,27 @@
 						<div class="item">
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-6">   
-									<h1>We are there 2</h1>
+									<div id = "burger-menu-wrapper">
+										<header class="burger-header">
+											<span><img src="img/Logo.png"></span>
+											<button class="hamburger">&#9776;</button>
+											<button class="cross">&#735;</button>
+										</header>
+												
+										<div class="menu">
+											<ul class="menu-ul">
+												<a href="#"><li>home</li></a>
+												<a href="#"><li>our story</li></a>
+												<a href="#"><li>what we do</li></a>
+												<a href="#"><li>projects</li></a>
+												<a href="#"><li>the crew</li></a>
+												<a href="#"><li>get in touch</li></a>
+											</ul>
+											<ul class="menu-ul-other">
+												<a href="#"><li>+ join our army</li></a>
+											</ul>
+										</div> 
+								</div>  
 								</div>
 								<div class="col-lg-8 col-md-8 bg_right col-sm-6">
 									<img src="img/MainImg.png">
@@ -70,7 +112,27 @@
 						<div class="item">
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-6">   
-									<h1>We are there 3</h1>
+									<div id = "burger-menu-wrapper">
+										<header class="burger-header">
+											<span><img src="img/Logo.png"></span>
+											<button class="hamburger">&#9776;</button>
+											<button class="cross">&#735;</button>
+										</header>
+												
+										<div class="menu">
+											<ul class="menu-ul">
+												<a href="#"><li>home</li></a>
+												<a href="#"><li>our story</li></a>
+												<a href="#"><li>what we do</li></a>
+												<a href="#"><li>projects</li></a>
+												<a href="#"><li>the crew</li></a>
+												<a href="#"><li>get in touch</li></a>
+											</ul>
+											<ul class="menu-ul-other">
+												<a href="#"><li>+ join our army</li></a>
+											</ul>
+										</div> 
+								</div>  
 								</div>
 								<div class="col-lg-8 col-md-8 bg_right col-sm-6">
 									<img src="img/MainImg.png">
@@ -81,7 +143,27 @@
 						<div class="item">
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-6">   
-									<h1>We are there 4</h1>
+									<div id = "burger-menu-wrapper">
+										<header class="burger-header">
+											<span><img src="img/Logo.png"></span>
+											<button class="hamburger">&#9776;</button>
+											<button class="cross">&#735;</button>
+										</header>
+												
+										<div class="menu">
+											<ul class="menu-ul">
+												<a href="#"><li>home</li></a>
+												<a href="#"><li>our story</li></a>
+												<a href="#"><li>what we do</li></a>
+												<a href="#"><li>projects</li></a>
+												<a href="#"><li>the crew</li></a>
+												<a href="#"><li>get in touch</li></a>
+											</ul>
+											<ul class="menu-ul-other">
+												<a href="#"><li>+ join our army</li></a>
+											</ul>
+										</div> 
+								</div>  
 								</div>
 								<div class="col-lg-8 col-md-8 bg_right col-sm-6">
 									<img src="img/MainImg.png">
@@ -103,14 +185,16 @@
 			</div>
 		</div>
 		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 		<!-- /scripts -->
 		<script src="PreloadingEffect/js/modernizr.custom.js"></script>
 		<script src="PreloadingEffect/js/classie.js"></script>
 		<script src="PreloadingEffect/js/pathLoader.js"></script>
 		<script src="PreloadingEffect/js/main.js"></script>
+		<script src="js/burgerMenu.js"></script>
     
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
 	</body>
 </html>
