@@ -64,6 +64,8 @@
 
 							classie.add( document.body, 'layout-switch' );
 							window.removeEventListener( 'scroll', noscroll );
+							//This to make appear the hidden elements after preloading
+							$("div#scroll-down-link").removeClass("hidden");
 						};
 
 						if( support.animations ) {

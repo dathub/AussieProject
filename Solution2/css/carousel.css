@@ -39,6 +39,39 @@ Inspired from:  http://codepen.io/Rowno/pen/Afykb
 	z-index: 2;
 }
 
+.carousel-indicators {
+	position: absolute;
+	bottom: 10px;
+	left: 34%;
+	z-index: 15;
+	width: 60%;
+	margin-left: -30%;
+	padding-left: 0;
+	list-style: none;
+	text-align: center;
+}  
+
+.carousel-indicators li {
+	display: inline-block;
+	width:  11px;
+	height: 11px;
+	margin: 1.5px;
+	text-indent: -999px;
+	border: 2px solid;
+	border-radius: 10px;
+	cursor: pointer;
+
+	background-color: #000 \9; /* IE8*/
+	background-color: rgba(0,0,0,0); /*IE9*/
+}
+
+.carousel-indicators .active {
+	  margin: 0;
+	  width:  12px;
+	  height: 12px;
+	  background-color:#000;
+}
+
 /*
 WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
 Need to override the 3.3 new styles for modern browsers & apply opacity
@@ -65,3 +98,4 @@ Need to override the 3.3 new styles for modern browsers & apply opacity
         transform: translate3d(0, 0, 0);
     }
 }
+
