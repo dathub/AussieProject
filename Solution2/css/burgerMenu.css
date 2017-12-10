@@ -27,7 +27,7 @@
     font-weight:bold;
     cursor:pointer;
     outline:none;
-    z-index:10000000000000;
+    z-index:50;
 }
 
 .main-banner-carousel #burger-menu-wrapper .cross {
@@ -43,11 +43,11 @@
     font-weight:bold;
     cursor:pointer;
     outline:none;
-    z-index:10000000000000;
+    z-index:50;
 }
 
 .main-banner-carousel #burger-menu-wrapper .menu {
-    z-index:1000000; 
+    z-index:50; 
     font-weight:bold; 
     /* font-size:3em;  */
     width:100%;  
