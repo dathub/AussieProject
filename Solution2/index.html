@@ -17,7 +17,47 @@
 		<link rel="stylesheet" type="text/css" href="css/scrollDownButton.css">
 		<link rel="stylesheet" type="text/css" href="css/sideNavBar.css">
     <style>
+		body {
+		margin: 0;
+		padding: 0;
+		}
 
+		.page {
+		position: relative;
+		width: 100%;
+		height: 800px;
+		padding: 12px;
+		font-size: 72px;
+		}
+		
+		.sider{
+		height: 800px;
+		font-size: 72px;
+		color: rgb(255,255,255);
+		background-color: rgb(31,31,31);
+		}
+
+		footer {
+		position: relative;
+		width: 100%;
+		z-index: 12;
+		height: 400px;
+		font-size: 72px;
+		color: rgb(255,255,255);
+		background-color: rgb(127,127,127);
+		}
+
+		.page:nth-of-type(odd) {
+		color: rgb(255,255,255);
+		background-color: rgb(127,127,127);
+		}
+
+		.fixed {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: -12;
+		}
     </style>
 	</head>
 	<body>
@@ -197,27 +237,18 @@
 							</div>
 					</div>
 				</section>
-				<section id="section02">
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					<p>Sample Text</p>
-					
-				</section>
 			</div>
+			<div class="page">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 sider">
+						Sidebar
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-6">
+						Page Content
+					</div>
+				</div>
+			</div>
+			<footer>Footer</footer>
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -230,6 +261,40 @@
 		<script src="PreloadingEffect/js/main.js"></script>
 		<script src="js/scrollDownButton.js"></script>
 		<script src="js/burgerMenu.js"></script>
+		<script>
+			var fixed = false;
+			var shouldUnfixed = false;
+			function fixPage5() {
+				var footer = document.getElementsByTagName('footer')[0];
+				var page = document.getElementsByClassName('page')[0];
+				
+				if ((page.getBoundingClientRect().top < $(window).height()-page.offsetHeight) && !fixed) {
+					page.classList.add('fixed');
+					console.log("fixed");
+					footer.style.marginTop = $(window).height()+'px';
+					fixed = true;
+				}
+				
+				console.log((footer.getBoundingClientRect().top < $(window).height()) && fixed);
+				
+				if(!fixed){
+					shouldUnfixed = false;
+				}
+				if((footer.getBoundingClientRect().top < $(window).height()) && fixed){
+					shouldUnfixed = true;
+				}
+				
+				
+				if ((footer.getBoundingClientRect().top > $(window).height()) && fixed && shouldUnfixed) {
+					footer.style.marginTop = $(window).height()+'px';
+					page.classList.remove('fixed');
+					console.log("unfixed");
+					fixed = false;
+				}
+			}
+
+			window.addEventListener('scroll',fixPage5,false);
+		</script>
 
 	</body>
 </html>
