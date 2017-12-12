@@ -1,28 +1,25 @@
-  .scroll-down a {
+  #scroll-down-link a {
     position: absolute;
-    bottom: 20px;
-    left: 62%;
+    bottom: 5px;
+    left: 64%;
     z-index: 10;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     color: #fff;
-    font : normal 400 20px/1 'Josefin Sans', sans-serif;
-    letter-spacing: .1em;
-    text-decoration: none;
-    transition: opacity .3s;
-  }
-  .scroll-down a:hover {
-    opacity: .5;
-  }
-  
-  
-  #scroll-down-link a {
     padding-top: 60px;
     font-size: 12px;
     color: #000;
     font-weight: 1000;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
   }
+
+  #scroll-down-link a:hover {
+    opacity: .5;
+  }
+
   #scroll-down-link a span {
     position: absolute;
     top: 0;
@@ -79,5 +76,11 @@
     }
     100% {
       opacity: 0;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    div.scroll-down a{
+      left:50%;
     }
   }

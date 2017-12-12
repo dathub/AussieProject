@@ -1,13 +1,3 @@
-/* #burger-menu-wrapper body {
-    font-family: 'Noto Sans', sans-serif;
-    margin:0;
-    width:100%;
-    height:100vh;
-    background:#ffffff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-} */
-
 .main-banner-carousel #burger-menu-wrapper .burger-header {
     width:100%; 
     background:#ffffff; 
@@ -80,6 +70,9 @@
 
 .main-banner-carousel #burger-menu-wrapper .menu a {
     text-decoration:none; 
+    font-family: 'Crimson';
+	font-style: bold;
+	color: #000;
 }
 
 .main-banner-carousel #burger-menu-wrapper .menu a:hover {
@@ -104,4 +97,13 @@
 
 .main-banner-carousel #burger-menu-wrapper a { 
     color:#000;
+}
+
+@media only screen and (max-width: 767px) {
+	.main-banner-carousel #burger-menu-wrapper .hamburger{
+        right:20px;
+    }
+    .main-banner-carousel #burger-menu-wrapper .cross{
+        right:20px;
+	}
 }

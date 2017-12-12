@@ -72,6 +72,29 @@ Inspired from:  http://codepen.io/Rowno/pen/Afykb
 	  background-color:#000;
 }
 
+.carousel-caption
+{
+	position: absolute;
+	right: 0;
+	top: 40%;
+	left: 0;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #000;
+	text-align: center;
+	justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-caption p {
+	font-family: 'Roboto';
+	font-style: bold;
+	font-size: 90px;
+	color: #000;
+}
+
 /*
 WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
 Need to override the 3.3 new styles for modern browsers & apply opacity
@@ -97,5 +120,11 @@ Need to override the 3.3 new styles for modern browsers & apply opacity
 		-webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
+}
+
+@media only screen and (max-width: 767px) {
+	ol.carousel-indicators{
+		left:52%;
+	}
 }
 

@@ -1,0 +1,42 @@
+.main-banner .listen-box {
+    width:60px;
+    height:60px;
+    background-color:#fff;
+    position: absolute;
+    bottom: 8%;
+    right: 0%;
+    z-index: 10;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-banner .listen-box-img {
+    width:20px;
+    height:20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-banner .listen-box-link {
+    position: absolute;
+    top: 25px;
+    width:30px;
+    height:20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-banner .listen-box img {
+    margin:10px;
+    flex: 1;
+    height: 100%;
+}
+
+.main-banner .listen-box a {
+    margin:10px;
+    flex: 1;
+    height: 100%;
+}

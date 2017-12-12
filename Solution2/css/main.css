@@ -1,0 +1,29 @@
+.row {
+    margin:0px;
+}
+
+a {
+    text-decoration:none; 
+    outline: 0;
+    font-family: 'Crimson';
+	font-style: bold;
+    color: #000;
+    font-size: 14px;
+}
+
+a:hover {
+    outline: 0;
+    color: #000;
+}
+
+a:active {
+    text-decoration:none; 
+    outline: 0;
+    color: #000; 
+}
+
+a:visited {
+    text-decoration:none; 
+    outline: 0;
+    color: #000;  
+}

@@ -1,7 +1,3 @@
-// $(document).ready(function() {
-//   $("div#scroll-down-link").removeClass("hidden");
-// });
-
 $(function() {
     $('a[href*=#]').on('click', function(e) {
       e.preventDefault();

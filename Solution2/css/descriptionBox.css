@@ -1,0 +1,35 @@
+.descriptions-box {
+    height: 300px;
+    width: 250px;
+    margin: 120px;
+    position: absolute;
+    top: 300%;
+}
+
+.descriptions-box p {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.do-not-click-box {
+    height: 30px;
+    width: 260px;
+    margin: 120px;
+    position: absolute;
+    top: 900%;
+}
+
+.bin {
+    width:30px;
+    height:30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.do-not-click-box a {
+    margin: 5px;
+    position: absolute;
+}

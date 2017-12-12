@@ -1,39 +1,48 @@
-.side-nav-ul li {
+.side-nav {
+    position: absolute;
+    right:-350px;
+    width: 440px;
+    height: 100px;
+    margin:0;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left bottom;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left bottom;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left bottom;
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+    z-index: 10;
+}
+
+.side-nav .side-nav-ul li {
     list-style-type: none;
     line-height: 50px;
     float: left;
     width: 100px;
+    margin: 10px;
 }
-
-.side-nav-ul a {
+bottomide-nav .side-nav-ul a {
     text-decoration: none;
     text-transform: lowercase;
     color: inherit;
     font-weight: bold;
 }
 
-.side-nav-ul a:hover{
+.side-nav .side-nav-ul a:hover{
     opacity: .5;
 }
 
-.side-nav-ul {
-    float: left;
-    width: 1566px; /* 522 + 522 + 522 = 1566 */
+.side-nav .side-nav-ul {
+    /* float: left; */
+    padding: 0;
+    margin: 10px;
+    width: 420px; /* 522 + 522 + 522 = 1566 */
     text-align: center;
 	position: absolute;
-    top: 1600px;
     white-space: nowrap;
-    height: 200px;
+    height: 80px;
     z-index: 10;
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin: right top;
-    -moz-transform: rotate(90deg);
-    -moz-transform-origin: right top;
-    -ms-transform: rotate(90deg);
-    -ms-transform-origin: right top;
-    -o-transform: rotate(90deg);
-    -o-transform-origin: right top;
-    transform: rotate(90deg);
-    transform-origin: right top;
 }
-
