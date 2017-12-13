@@ -1,6 +1,7 @@
 .side-nav {
     position: absolute;
-    right:-350px;
+    right:-330px;
+    top: -80px;
     width: 440px;
     height: 100px;
     margin:0;
@@ -21,14 +22,16 @@
     list-style-type: none;
     line-height: 50px;
     float: left;
-    width: 100px;
+    width: 70px;
     margin: 10px;
 }
-bottomide-nav .side-nav-ul a {
+
+.side-nav .side-nav-ul a {
     text-decoration: none;
     text-transform: lowercase;
     color: inherit;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .side-nav .side-nav-ul a:hover{

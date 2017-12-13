@@ -1,41 +1,96 @@
-body {
-margin: 0;
-padding: 0;
-}
-            
-/* .content-page {
-position: relative;
-width: 100%;
-height: 800px;
-padding: 12px;
-font-size: 72px;
-} */
-
-.sider{
-/* height: 800px; */
-font-size: 72px;
-color: rgb(255,255,255);
-background-color: rgb(31,31,31);
+.content-page {
+    position: absolute;
+    width: 100%;
 }
 
-footer {
-position: relative;
-width: 100%;
-z-index: 12;
-height: 400px;
-font-size: 72px;
-color: rgb(255,255,255);
-background-color: rgb(127,127,127);
+.side-bar {
+    font-size: 72px;
+    color: rgb(255,255,255);
+    background-color: rgb(31,31,31);
 }
 
-.page:nth-of-type(odd) {
-color: rgb(255,255,255);
-background-color: rgb(127,127,127);
+.portfolio-wrapper {
+    width: 915.33px;
+    margin: 20px;
 }
 
-.fixed {
-position: fixed;
-bottom: 0;
-left: 0;
-z-index: -12;
+.portfolio-wrapper .row{
+   width: 915.33px;
+   margin:0;
+}
+
+.thumbnail {
+    margin-bottom:7px;
+}
+
+.thumbnail img {
+    margin: 0;
+}
+
+/* Side title for feature projects */
+.side-title {
+    position: absolute;
+    right:-350px;
+    width: 440px;
+    height: 100px;
+    margin:0;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left bottom;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left bottom;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left bottom;
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+    z-index: 10;
+}
+
+/* Show more projects */
+.show-more-button {
+    position: absolute;
+    left: 38%;
+    width:  150px;
+    height: 80px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.show-more-img {
+    width:25px;
+    height:25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.show-more-link {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    width:150px;
+    height:20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.show-more-button img {
+    margin:10px;
+    flex: 1;
+    height: 100%;
+}
+
+.show-more-button a {
+    margin:10px;
+    flex: 1;
+    height: 100%;
+}
+
+.space-occupier {
+    width: 915.33px;
+    height: 300px;
 }
