@@ -81,18 +81,11 @@ Inspired from:  http://codepen.io/Rowno/pen/Afykb
 	z-index: 10;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	color: #000;
-	text-align: center;
-	justify-content: center;
-    display: flex;
-    flex-direction: row;
 }
 
-.carousel-caption p {
-	font-family: 'Roboto';
-	font-style: bold;
-	font-size: 90px;
-	color: #000;
+.carousel-caption .imgwrapper {
+	margin:auto;
+   width: 80%;
 }
 
 /*
