@@ -29,8 +29,9 @@
 .side-nav .side-nav-ul a {
     text-decoration: none;
     text-transform: lowercase;
-    color: inherit;
-    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;   
     font-size: 20px;
 }
 

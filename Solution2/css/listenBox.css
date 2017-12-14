@@ -1,4 +1,4 @@
-.main-banner .listen-box {
+.listen-box {
     width:60px;
     height:60px;
     background-color:#fff;
@@ -9,9 +9,22 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
+
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;
 }
 
-.main-banner .listen-box-img {
+.listen-box:hover .listen-box-img {
+    opacity: .75;
+}
+
+.listen-box:hover .listen-box-link {
+    opacity: .75;
+}
+
+.listen-box-img {
     width:20px;
     height:20px;
     justify-content: center;
@@ -19,7 +32,7 @@
     flex-direction: row;
 }
 
-.main-banner .listen-box-link {
+.listen-box-link {
     position: absolute;
     top: 25px;
     width:30px;
@@ -29,13 +42,13 @@
     flex-direction: row;
 }
 
-.main-banner .listen-box img {
+.listen-box img {
     margin:10px;
     flex: 1;
     height: 100%;
 }
 
-.main-banner .listen-box a {
+.listen-box p {
     margin:10px;
     flex: 1;
     height: 100%;

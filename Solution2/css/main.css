@@ -52,8 +52,8 @@ a:visited {
 }
 
 .link-text {
-    font-family: 'Crimson';
+    font-family: 'Source Sans Pro';
 	font-style: bold;
     color: #000;
-    font-size: 14px;
+    font-size: 12px;
 }

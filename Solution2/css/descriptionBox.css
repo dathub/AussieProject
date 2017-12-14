@@ -13,23 +13,26 @@
 }
 
 .do-not-click-box {
-    height: 30px;
+    height: 35px;
     width: 260px;
-    margin: 120px;
+    margin: 60px;
     position: absolute;
     top: 900%;
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;
 }
 
-.bin {
-    width:30px;
-    height:30px;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    float: left;
+.do-not-click-box img {
+    margin-right:20px;
 }
 
-.do-not-click-box a {
-    margin: 5px;
-    position: absolute;
+.do-not-click-box:hover {
+    opacity: .75;
+    text-decoration: none;
+}
+
+.do-not-click-box:hover a{
+    text-decoration: none;
 }

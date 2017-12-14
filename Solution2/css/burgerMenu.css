@@ -48,14 +48,14 @@
 }
 
 .main-banner-carousel #burger-menu-wrapper .menu .menu-ul {
-    margin: 0; 
+    margin-left: 180px; 
     padding: 0; 
     list-style-type: none; 
     list-style-image: none;
 }
 
 .main-banner-carousel #burger-menu-wrapper .menu .menu-ul-other {
-    margin: 0; 
+    margin-left: 164px; 
     padding: 0; 
     position: relative;
     top: 100px;
@@ -70,9 +70,7 @@
 
 .main-banner-carousel #burger-menu-wrapper .menu a {
     text-decoration:none; 
-    font-family: 'Crimson';
-	font-style: bold;
-	color: #000;
+    text-align: left;
 }
 
 .main-banner-carousel #burger-menu-wrapper .menu a:hover {

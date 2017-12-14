@@ -10,12 +10,11 @@
 }
 
 .portfolio-wrapper {
-    width: 915.33px;
     margin: 20px;
+    text-align: center;
 }
 
 .portfolio-wrapper .row{
-   width: 915.33px;
    margin:0;
 }
 
@@ -30,9 +29,7 @@
 /* Side title for feature projects */
 .side-title {
     position: absolute;
-    right:-350px;
-    width: 440px;
-    height: 100px;
+    width: 250px;
     margin:0;
     -webkit-transform: rotate(90deg);
     -webkit-transform-origin: left bottom;
@@ -48,49 +45,46 @@
 }
 
 /* Show more projects */
-.show-more-button {
-    position: absolute;
-    left: 38%;
+.show-more {
     width:  150px;
-    height: 80px;
-    margin: 0;
-    justify-content: center;
     display: flex;
     flex-direction: row;
+    text-align:center;
+    margin:50px auto;
 }
 
-.show-more-img {
-    width:25px;
-    height:25px;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
+.show-more a{
+    margin:auto;
+    display:inline-block;
+    text-decoration:none;
+    text-align:center;
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;
 }
 
-.show-more-link {
-    position: absolute;
-    left: 10px;
-    top: 40px;
-    width:150px;
-    height:20px;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
+.show-more a img{
+    margin-bottom:20px;
+    transition: transform .3s ease-out;
 }
 
-.show-more-button img {
-    margin:10px;
-    flex: 1;
-    height: 100%;
+.show-more a .caption {
+    transition: transform .3s ease-out;
 }
 
-.show-more-button a {
-    margin:10px;
-    flex: 1;
-    height: 100%;
+.show-more a:hover img{
+    transform: translate(0, -2.5px);
+}
+
+.show-more a:hover .caption{
+    transform: translate(0, 2.5px);
+}
+
+.show-more a:hover {
+    opacity: .75;
 }
 
 .space-occupier {
-    width: 915.33px;
     height: 300px;
 }

@@ -11,15 +11,28 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("div.show-more > a").click(function(){
 
-        $("div#hiddenProjects").removeClass("hidden");
-        $("div#hiddenProjects").show();
+        if($("div.show-more > a > div.caption").text()=="MORE PROJECTS") {
+            $("div#hiddenProjects").removeClass("hidden");
+            $("div#hiddenProjects").show();
+            $("div.show-more > a > div.caption").text("SHOW LESS");
+            $("div.show-more > a > img").hide();
+        } else if( $("div.show-more > a > div.caption").text()=="SHOW LESS"){
+            // $("div#hiddenProjects").hide();
+            // $("div#hiddenProjects").css("display","none");
+            $("div#hiddenProjects").addClass("hidden");
+            $("div.show-more > a > div.caption").text("MORE PROJECTS");
+            $("div.show-more > a > img").show();
+        }
+        $('.side-bar').height($('.content-bar').height());
+        // $("div#hiddenProjects").removeClass("hidden");
+        // $("div#hiddenProjects").show();
 
 
  
-        if ($('.side-bar').height() > $('.content-bar').height()) {
-            $('.content-bar').height($('.side-bar').height());
-        } else {
-            $('.side-bar').height($('.content-bar').height());
-        } 
+        // if ($('.side-bar').height() > $('.content-bar').height()) {
+        //     $('.content-bar').height($('.side-bar').height());
+        // } else {
+        //     $('.side-bar').height($('.content-bar').height());
+        // } 
    });
  });
