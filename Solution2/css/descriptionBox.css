@@ -3,7 +3,7 @@
     width: 250px;
     margin: 120px;
     position: absolute;
-    top: 300%;
+    top: 220%;
 }
 
 .descriptions-box p {
@@ -17,7 +17,7 @@
     width: 260px;
     margin: 60px;
     position: absolute;
-    top: 900%;
+    top: 700%;
     font-family: 'Source Sans Pro';
     font-weight: bolder;
     color: #000;
