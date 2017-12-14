@@ -31,6 +31,13 @@
     position: absolute;
     width: 250px;
     margin:0;
+    margin-left: -20px;
+
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;
+
     -webkit-transform: rotate(90deg);
     -webkit-transform-origin: left bottom;
     -moz-transform: rotate(90deg);

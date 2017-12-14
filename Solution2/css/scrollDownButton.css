@@ -37,7 +37,7 @@
 
   #scroll-down-link a:hover span {
     position: absolute;
-    transform: translate(0, -5px);
+    transform: translate(0, -7.5px);
     /* top: -10px; */
   }
 

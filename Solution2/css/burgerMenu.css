@@ -97,6 +97,11 @@
     color:#000;
 }
 
+.main-banner-carousel #burger-menu-wrapper .burger-header span img.resize {
+    width:220px;
+    height: auto;
+}
+
 @media only screen and (max-width: 767px) {
 	.main-banner-carousel #burger-menu-wrapper .hamburger{
         right:20px;
