@@ -24,6 +24,11 @@
 		<link rel="stylesheet" type="text/css" href="css/descriptionBox.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
 
+        <style type="text/css">
+
+
+        </style>
+
 	</head>
 	<body>
 		<div id="ip-container" class="ip-container">
@@ -320,8 +325,8 @@
 							<div class="col-md-4 side-bar left-col">
 							</div>
 
-							<div class="col-md-8 content-bar right-col">
-								<div class="row">
+							<div class="col-md-8 content-bar right-col" id="root">
+								<div class="row press" data-name="press" class="press" data-bg-colors-item>
 									<div class="col-md-11 right-col">
 										<br/><br/>
 										<div class="portfolio-wrapper">
@@ -377,12 +382,9 @@
 										</div>
 									</div>
 								</div>
-								
-								
-								
 								<!-- Footer -->
-								<!-- <div id="footer">
-									<div class="row">
+								<div class="row">
+								<div id="footer" class="footer" data-name="footer">
 										<div class="col-md-1">
 										</div>
 										<div class="col-md-2">
@@ -403,8 +405,11 @@
 										</div>
 										<div class="col-md-1">
 										</div>
+										<!--- try to use clear property whenver you use cols  or wrap them in row--->
+									  <div style="clear:both"></div>
+									
 									</div>
-								</div> -->
+								</div>
 								<!-- footer END -->
 							</div>
 						</div>
@@ -420,12 +425,12 @@
 		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 		<!-- /scripts -->
 		<script src="PreloadingEffect/js/modernizr.custom.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 		<script src="PreloadingEffect/js/classie.js"></script>
 		<script src="PreloadingEffect/js/pathLoader.js"></script>
 		<script src="PreloadingEffect/js/main.js"></script>
 		<script src="js/scrollDownButton.js"></script>
 		<script src="js/burgerMenu.js"></script>
 		<script src="js/contentPage.js"></script>
-		<script src="js/footerReveal.js"></script>
 	</body>
 </html>
