@@ -58,6 +58,7 @@
     flex-direction: row;
     text-align:center;
     margin:50px auto;
+    margin-top:10px;
 }
 
 .show-more a{
