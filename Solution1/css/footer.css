@@ -38,3 +38,8 @@ body {
     background: transparent;
     border-color: transparent;
 }
+
+.social-logo {
+    margin: 10px;
+    float: left;
+}
