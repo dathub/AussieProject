@@ -1,0 +1,120 @@
+/* #section01 {
+    overflow-y: auto;
+}
+
+#section02 {
+    overflow-y: auto; 
+} */
+
+/* .ip-main {
+    overflow-y: scroll;
+    height: 100%;
+} 
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+} */
+
+/* ::-webkit-scrollbar {
+    display: none;
+    } */
+
+.row {
+    margin:0;
+}
+
+a {
+    text-decoration:none; 
+    outline: 0;
+}
+
+a:hover {
+    outline: 0;
+    color: #000;
+}
+
+a:active {
+    text-decoration:none; 
+    outline: 0;
+    color: #000; 
+}
+
+a:visited {
+    text-decoration:none; 
+    outline: 0;
+    color: #000;  
+}
+
+.container {
+    padding: 0;
+}
+
+.left-col {
+    padding: 0;
+    height: 100vh;
+}
+
+.right-col {
+    padding: 0;
+}
+
+.right-col > img {
+    height:100vh;
+}
+
+
+/* Headers 17pt = 23px
+SubHeaders 9pt = 12px (line spacing 11pt = 15px) */
+.main-text {
+    font-family: 'Roboto';
+	font-style: bold;
+}
+
+.body-text {
+    font-family: 'Source Sans Pro';
+	/* font-style: ; */
+}
+
+.menu-text {
+    font-family: 'Crimson';
+	font-style: bold;
+}
+
+.link-text {
+    font-family: 'Source Sans Pro';
+	font-style: bold;
+    color: #000;
+    font-size: 12px;
+}
+
+.header {
+    font-family: 'Roboto';
+	font-style: bold;
+    color: #000;
+    font-size: 20px;
+}
+
+  
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  .viewport {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .scroll-container {
+    position: absolute;
+    overflow: hidden;
+
+  }

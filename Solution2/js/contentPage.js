@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.side-bar').height($('.content-bar').height());
+    $('.side-bar').height($(window).height());
 });
 
 // $(document).ready(function(){

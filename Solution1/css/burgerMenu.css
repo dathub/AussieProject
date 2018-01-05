@@ -1,0 +1,143 @@
+#burger-menu-wrapper{
+    position: absolute;
+    width: 100%;
+}
+
+#burger-menu-wrapper .burger-header {
+    width:100%; 
+    background:#ffffff;
+    line-height:60px;
+    margin-top: 25px;
+}
+
+#burger-menu-wrapper .hamburger {
+    background:none;
+    position:absolute;
+    top:23px;
+    right:20px;
+    line-height:60px;
+    /* padding:5px 15px 0px 15px; */
+    border:0;
+    font-size:2.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:50;
+}
+
+#burger-menu-wrapper .cross {
+    background:none;
+    position:absolute;
+    top:38px;
+    right:5px;
+    /* padding:7px 15px 0px 15px; */
+    /* color:#999; */
+    border:0;
+    font-size:6em;
+    line-height:60px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:50;
+}
+
+#burger-menu-wrapper .menu {
+    z-index:50; 
+    font-weight:bold; 
+    /* font-size:3em;  */
+    width:100%;  
+    position:absolute;
+    text-align:center; 
+    font-size:18px;
+    margin-top: 15%;
+}
+
+#burger-menu-wrapper .menu .menu-ul {
+    margin-left: 180px; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none;
+}
+
+#burger-menu-wrapper .menu .menu-ul-other {
+    margin-left: 160px; 
+    padding: 0; 
+    position: relative;
+    top: 70px;
+    list-style-type: none; 
+    list-style-image: none;
+}
+
+#burger-menu-wrapper .menu li {
+    display: block;
+    padding:15px 0 0 0; 
+    margin-bottom: 0;
+}
+
+#burger-menu-wrapper .menu a {
+    text-decoration:none; 
+    text-align: left;
+    font-family: 'Crimson';
+    font-style: bold;
+    font-size:21px;
+}
+
+#burger-menu-wrapper .menu a:hover {
+    text-decoration:underline; 
+}
+  
+#burger-menu-wrapper .glyphicon-home {
+    color:white; 
+    font-size:1.5em; 
+    margin-top:5px; 
+    margin:0 auto;
+}
+
+#burger-menu-wrapper .burger-header {
+    display:inline-block; 
+    font-size:12px;
+}
+
+#burger-menu-wrapper span { 
+    padding-left:20px;
+}
+
+#burger-menu-wrapper a { 
+    color:#000;
+}
+
+#burger-menu-wrapper .burger-header span img.resize {
+    width:220px;
+    height: auto;
+}
+
+#burger-menu-wrapper .menu .client-login {
+    margin-left: -300px; 
+    padding: 0; 
+    position: relative;
+    top: 180px; 
+}
+
+#burger-menu-wrapper .menu .client-login a img {
+    margin-right: 20px;  
+}
+
+#burger-menu-wrapper .menu .client-login a {
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;  
+}
+
+#burger-menu-wrapper .menu .client-login a:hover {
+    opacity: .75; 
+}
+
+@media only screen and (max-width: 767px) {
+	#burger-menu-wrapper .hamburger{
+        right:20px;
+    }
+    #burger-menu-wrapper .cross{
+        right:20px;
+	}
+}
