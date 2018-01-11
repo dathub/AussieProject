@@ -1,0 +1,104 @@
+/* left panel member description */
+.descriptions-crew {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.descriptions-crew p {
+    font-family: 'Source Sans Pro';
+    color: #000;
+    font-size: 12px;
+    width:70%;
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+}
+
+.descriptions-crew h2 {
+    font-family: 'Source Sans Pro';
+    color: #000;
+    font-size: 36px;
+    width:60%;
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+}
+
+.description-crew-wrapper{
+    display: table;
+    height: 100vh;
+}
+
+/* Side title for the crew */
+.side-title {
+    position: relative;
+    width: 250px;
+    margin:0;
+    margin-left: 40px;
+    top:-60px;
+
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;
+
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left bottom;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left bottom;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left bottom;
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+    z-index: 10;
+}
+
+ .side-title .member-cross {
+    background:none;
+    border:0;
+    font-size:6em;
+    line-height:60px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:50;
+    float: left;
+    color: #000;
+    text-decoration: none;
+}
+
+.side-title .member-cross:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+}
+
+/* right panel image wrappers */
+ .image-wrapper img {
+   /* Just in case there are inline attributes */
+   width: 100% !important;
+   height: auto !important;
+   margin: 15px;
+   margin-bottom: 120px;
+ }
+
+ .content-wrapper{
+    display: table;
+    height: 100vh;
+}
+
+ .member-wrapper {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
+

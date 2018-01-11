@@ -88,14 +88,6 @@ SubHeaders 9pt = 12px (line spacing 11pt = 15px) */
     color: #000;
     font-size: 12px;
 }
-
-.header {
-    font-family: 'Roboto';
-	font-style: bold;
-    color: #000;
-    font-size: 20px;
-}
-
   
   body {
     overflow-x: hidden;

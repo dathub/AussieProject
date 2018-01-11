@@ -1,8 +1,12 @@
-  #scroll-down-link a {
+   #scroll-down-link{
     position: absolute;
-    bottom: 5px;
-    left: 64%;
-    z-index: 10;
+    bottom: -35px;
+    left: 45%;
+    z-index: 12;
+    display: inline-block;
+  }
+  
+  #scroll-down-link a {
     display: inline-block;
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
@@ -85,6 +89,55 @@
       opacity: 0;
     }
   }
+  @-moz-keyframes sdb10 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      transform: translate(0, 10px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-ms-keyframes sdb10 {
+    0% {
+      -webkit-transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      -webkit-transform: translate(0, 10px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @-o-keyframes sdb10 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      transform: translate(0, 10px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
   @keyframes sdb10 {
     0% {
       transform: translate(0, 0);
@@ -102,8 +155,9 @@
     }
   }
 
+
   @media only screen and (max-width: 767px) {
-    div.scroll-down a{
+    div#scroll-down-link a{
       left:50%;
     }
   }
