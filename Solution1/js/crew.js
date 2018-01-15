@@ -14,9 +14,7 @@ $(function() {
         window.location.href  = url[0] + "#crew1";
       } else if($(this).attr('href')=="#crew2") {
         window.location.href  = url[0] + "#crew2";
-      } else if($(this).attr('href')=="#crew0") {
-        window.location.href  = url[0] + "#crew0";
-      } 
+      }
     });
   });
 
