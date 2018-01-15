@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors: ['member1', 'member2', 'member3', 'member4', 'member5', 'member6'],
-        scrollingSpeed: 1700
+        scrollingSpeed: 1200
     });
 });
 
@@ -15,7 +15,7 @@ function fadeElement(element, replacements) {
                 $(element).find(key).html(value);
             }
 
-            $(element).fadeIn(2000);
+            $(element).fadeIn(1500);
         });
     });
 }
