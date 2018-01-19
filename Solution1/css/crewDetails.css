@@ -63,7 +63,13 @@
     vertical-align: middle;
 }
 
-.image-wrapper img {
+.image-wrapper .img-horizontal {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .image-wrapper .img-vertical {
     /* Just in case there are inline attributes */
     width: auto !important;
     height: 100% !important;

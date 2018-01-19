@@ -1,0 +1,164 @@
+body {
+    overflow:hidden;
+}
+
+.right-col > .bg {
+    height:100vh !important;
+    width: 100% !important;
+    position: relative;
+}
+
+.right-col > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(14, 190, 164);
+    text-align: center;
+}
+
+.description-box-wrapper{
+    display: table;
+    height: 100vh;
+
+}
+
+
+.descriptions-box {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.descriptions-box img {
+    /* float: left; */
+    display: inline-block;
+}
+
+.descriptions-box span {
+    /* float: right; */
+    display: inline-block;
+}
+
+.descriptions-box .wrapper-middle {
+    width: 100%; 
+    margin-left: 100px;
+}
+
+.descriptions-box .wrapper-middle p {
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
+    color: #000;
+    font-size: 24px;
+    width: 50%;
+}
+
+.descriptions-box .icon-wrapper .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 10px 20px 50px;
+}
+
+.descriptions-box .icon-wrapper .icon-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px 20px;
+}
+
+.descriptions-box .icon-wrapper .icon-text h3{
+    margin:0px ;
+}
+
+/* Enquire Button Begin */
+.enquire-wrapper {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+.enquire-wrapper .enquire-btn{
+  border: 2px solid currentColor;
+  border-radius: 3rem;
+  color: rgb(14, 190, 164);
+  font-size: 16px;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.enquire-wrapper .enquire-btn:hover {
+    opacity: .25;
+}
+/* Enquire Button End */
+.side-title {
+    /* width: 450px; */
+    margin:0;
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;
+
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: center;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: center;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: center;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: center;
+    transform: rotate(90deg);
+    transform-origin: center; 
+    z-index: 10;
+}
+
+.side-title .side-title-content {
+    width: 300px;
+    height: 50px;
+}
+
+.side-title .side-text {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.side-title .side-text h2 {
+    margin: 0px;
+}
+
+ .side-title .member-cross-wrapper .member-cross {
+    background:none;
+    border:0;
+    font-size:6em;
+    line-height:60px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:50;
+    color: #000;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+}
+
+.side-title .member-cross-wrapper {
+    margin-right:30px; 
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.side-title .member-cross:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+}

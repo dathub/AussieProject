@@ -43,6 +43,18 @@
     height: 80vh;
 }
 
+/* .image-wrapper .img-horizontal {
+    width: 100% !important;
+    height: auto !important;
+    margin: 15px;
+  }
+
+  .image-wrapper .img-vertical {
+    width: auto !important;
+    height: 100% !important;
+    margin: 15px;
+  } */
+
 /* Side title for the crew */
 .side-title {
     position: absolute;
