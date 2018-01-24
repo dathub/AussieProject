@@ -89,7 +89,23 @@ body {
   z-index: 0;
 }
 
+.enquire-wrapper .black-btn{
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: #000;
+    font-size: 16px;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    z-index: 0;
+  }
+
 .enquire-wrapper .enquire-btn:hover {
+    opacity: .25;
+}
+
+.enquire-wrapper .black-btn:hover {
     opacity: .25;
 }
 /* Enquire Button End */
@@ -161,4 +177,68 @@ body {
     color: #000;
     text-decoration: none;
     opacity: .75;
+}
+
+/*form */
+.form-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height:70vh;
+    transform: translate(-50%, -50%);
+    /* background-color: rgb(14, 190, 164); */
+    text-align: center;
+    z-index: 10;
+}
+
+.full-input {
+    /* position: absolute; */
+    z-index: 10;
+    height: 11vh;
+}
+
+
+.half-input {
+    display: flex;
+    z-index: 10;
+    height: 11vh;
+}
+
+.half-input .left-input {
+    flex:1;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.half-input .right-input {
+    width: 45%;
+    margin-left: 5%;
+}
+
+input[type="text"]::placeholder {
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
+    color: #000;
+}
+
+
+select, option, option:disabled{
+    color:black;
+}
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
