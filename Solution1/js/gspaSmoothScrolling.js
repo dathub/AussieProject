@@ -2,7 +2,7 @@ $(function(){
     var $window = $(window);		//Window object
     var $scrollDownButton = $(".scroll-down-a").filter("[href^=\\#]");
 	
-	var scrollTime = 1.2;			//Scroll time
+	var scrollTime = 1;			//Scroll time
 	var scrollDistance = 200;		//Distance. Use smaller value for shorter scroll and greater value for longer scroll
 		
 	$window.on("mousewheel DOMMouseScroll", function(event){

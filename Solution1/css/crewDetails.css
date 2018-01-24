@@ -6,29 +6,45 @@
     display: table-cell;
 }
 
-.descriptions-crew p {
-    font-family: 'Source Sans Pro';
-    color: #000;
-    font-size: 14px;
-    width:80%;
+.descriptions-crew .detail-wrapper {
+    width:62%;
     display: inline-block;
     text-align: left;
     margin: 0px;
 }
 
-.descriptions-crew h3 {
+.descriptions-crew .details {
     font-family: 'Source Sans Pro';
+    font-weight: 300;
+    letter-spacing: 0em;
     color: #000;
-    width:80%;
+    font-size: 15px;
+    /* width:60%; */
     display: inline-block;
     text-align: left;
     margin: 0px;
 }
 
-.descriptions-crew h6 {
-    font-family: 'Source Sans Pro';
+.descriptions-crew .name {
+    font-family: 'Crimson';
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0em;
     color: #000;
-    width:80%;
+    /* width:80%; */
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+}
+
+.descriptions-crew .designation {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0em;
+    color: #000;
+    /* width:80%; */
     display: inline-block;
     text-align: left;
     margin: 0px;
@@ -57,6 +73,14 @@
 
 .image-wrapper {
     height: 80vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.scroll-btn-wrapper {
+    height: 10vh;
     width: 100%;
     position: relative;
     text-align: center;

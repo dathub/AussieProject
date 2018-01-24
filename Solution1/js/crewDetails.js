@@ -69,7 +69,7 @@ $(window).bind('hashchange', function(){
             var descriptionCrew = document.getElementsByClassName('descriptions-crew');
 
             var sideTitleReplacememtns = {"h2":memInfo[0]};
-            var descriptionCrewReplacements = {"h3":memInfo[0],"h6":memInfo[1],"p":memInfo[2]};
+            var descriptionCrewReplacements = {".name":memInfo[0],".designation":memInfo[1],".details":memInfo[2]};
 
 
             fadeElement(sideTital, sideTitleReplacememtns);

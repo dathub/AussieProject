@@ -5,6 +5,7 @@ $( document ).ready(function() {
     $( ".hamburger" ).click(function() {
     $( ".descriptions-box" ).hide();
     $( ".descriptions-crew" ).hide();
+    $( ".description-crew-wrapper" ).hide();
     $( ".do-not-click-box" ).hide();
     $( ".menu" ).slideToggle( "slow", function() {
     $( ".hamburger" ).hide();
@@ -17,6 +18,7 @@ $( document ).ready(function() {
     $( ".cross" ).hide();
     $( ".hamburger" ).show();
     $( ".descriptions-box" ).show();
+    $( ".description-crew-wrapper" ).show();
     $( ".descriptions-crew" ).show();
     $( ".do-not-click-box" ).show();
     });

@@ -20,7 +20,7 @@ body {
 .description-box-wrapper{
     display: table;
     height: 100vh;
-
+    width: 100%;
 }
 
 
@@ -41,14 +41,30 @@ body {
 
 .descriptions-box .wrapper-middle {
     width: 100%; 
-    margin-left: 100px;
+    margin-left: 160px;
+}
+
+.descriptions-box .description-header p{
+    font-family: 'Source Sans Pro';
+    font-weight: 1000;
+    color: #000;
+    font-size: 60px;
+    width: 50%;
+}
+
+.descriptions-box .wrapper-middle .description-bar p{
+    font-family: 'Source Sans Pro';
+    font-weight: 1000;
+    color: #000;
+    font-size: 60px;
+    width: 50%;
 }
 
 .descriptions-box .wrapper-middle p {
     font-family: 'Source Sans Pro';
     font-weight: 800;
     color: #000;
-    font-size: 24px;
+    font-size: 36px;
     width: 50%;
 }
 
@@ -114,7 +130,7 @@ body {
     margin:0;
     position: absolute;
     top: 20%;
-    right: -10%;
+    right: -9%;
     font-family: 'Source Sans Pro';
     font-weight: bolder;
     color: #000;
@@ -167,7 +183,7 @@ body {
 }
 
 .side-title .member-cross-wrapper {
-    margin-right:30px; 
+    margin-right:20px; 
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -184,7 +200,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 60%;
+    width: 70%;
     height:70vh;
     transform: translate(-50%, -50%);
     /* background-color: rgb(14, 190, 164); */
@@ -225,6 +241,9 @@ input[type="text"]::placeholder {
 
 select, option, option:disabled{
     color:black;
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
+    opacity: 1;
 }
 
 input[type="text"],

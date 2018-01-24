@@ -56,7 +56,7 @@ body {
 .description-box-wrapper{
     display: table;
     height: 100vh;
-
+    width: 100%;
 }
 
 
@@ -65,43 +65,33 @@ body {
     display: table-cell;
 }
 
-.descriptions-box img {
-    /* float: left; */
-    display: inline-block;
-}
-
-.descriptions-box span {
-    /* float: right; */
-    display: inline-block;
-}
-
 .descriptions-box .wrapper-middle {
     width: 100%; 
-    margin-left: 100px;
+    margin-left: 160px;
+}
+
+.descriptions-box .description-header p{
+    font-family: 'Source Sans Pro';
+    font-weight: 1000;
+    color: #000;
+    font-size: 60px;
+}
+
+.descriptions-box .wrapper-middle .description-bar p{
+    font-family: 'Source Sans Pro';
+    font-style: initial;
+    font-weight: 100;
+    color: #000;
+    font-size: 120px;
 }
 
 .descriptions-box .wrapper-middle p {
-    font-family: 'Source Sans Pro';
-    font-weight: 800;
+    font-family: 'Roboto';
+    font-weight: 700;
     color: #000;
-    font-size: 24px;
-    width: 50%;
-}
-
-.descriptions-box .icon-wrapper .icon {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 20px 10px 20px 50px;
-}
-
-.descriptions-box .icon-wrapper .icon-text {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 40px 20px;
-}
-
-.descriptions-box .icon-wrapper .icon-text h3{
-    margin:0px ;
+    font-size: 37px;
+    letter-spacing: 0em;
+    width: 55%;
 }
 
 /* Enquire Button Begin */
