@@ -1,0 +1,136 @@
+#burger-menu-wrapper{
+    position: relative;
+    width: 100%;
+}
+
+#burger-menu-wrapper .burger-header {
+    width:100%; 
+    background:#ffffff;
+    line-height:60px;
+}
+
+#burger-menu-wrapper .hamburger {
+    background:none;
+    position:relative;
+    line-height:60px;
+    border:0;
+    font-size:2.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+	float:right;
+}
+
+#burger-menu-wrapper .cross {
+    background:none;
+    position:relative;
+    line-height:60px;
+    border:0;
+    font-size:2.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+	float:right;
+}
+
+#burger-menu-wrapper .menu {
+    z-index:50; 
+    font-weight:bold;
+    width:100%;  
+    position:relative; 
+    font-size:18px;
+    margin-top: 15%;
+}
+
+#burger-menu-wrapper .menu .menu-ul {
+    margin-left: 180px; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none;
+}
+
+#burger-menu-wrapper .menu .menu-ul-other {
+    margin-left: 160px; 
+    padding: 100px 0 0 0; 
+    position: relative;
+    list-style-type: none; 
+    list-style-image: none;
+}
+
+#burger-menu-wrapper .menu li {
+    display: block;
+    padding:15px 0 0 0; 
+    margin-bottom: 0;
+}
+
+#burger-menu-wrapper .menu a {
+    text-decoration:none; 
+    text-align: left;
+    font-family: 'Crimson';
+    font-style: bold;
+    font-size:21px;
+}
+
+#burger-menu-wrapper .menu a:hover {
+    text-decoration:underline; 
+}
+  
+#burger-menu-wrapper .glyphicon-home {
+    color:white; 
+    font-size:1.5em; 
+    margin-top:5px; 
+    margin:0 auto;
+}
+
+#burger-menu-wrapper .burger-header {
+    display:inline-block; 
+    font-size:12px;
+}
+
+#burger-menu-wrapper span { 
+    padding-left:20px;
+}
+
+#burger-menu-wrapper a { 
+    color:#000;
+}
+
+#burger-menu-wrapper .burger-header span img.resize {
+    width:220px;
+    height: auto;
+}
+
+#burger-menu-wrapper .menu .client-login {
+    padding: 100px 0 20px 0; 
+	margin-left: 20px;
+    position: relative;
+}
+
+#burger-menu-wrapper .menu .client-login a img {
+    margin-right: 20px;  
+}
+
+#burger-menu-wrapper .menu .client-login a {
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;  
+}
+
+#burger-menu-wrapper .menu .client-login a:hover {
+    opacity: .75; 
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+	#burger-menu-wrapper .hamburger{
+        right:20px;
+    }
+    #burger-menu-wrapper .cross{
+        right:20px;
+	}
+}
