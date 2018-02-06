@@ -30,8 +30,6 @@
     position:absolute;
     top:38px;
     right:20px;
-    /* padding:7px 15px 0px 15px; */
-    /* color:#999; */
     border:0;
     font-size:6em;
     line-height:60px;
@@ -44,7 +42,6 @@
 #burger-menu-wrapper .menu {
     z-index:50; 
     font-weight:bold; 
-    /* font-size:3em;  */
     width:100%;  
     position:absolute;
     text-align:center; 
@@ -133,11 +130,84 @@
     opacity: .75; 
 }
 
-@media only screen and (max-width: 767px) {
-	#burger-menu-wrapper .hamburger{
-        right:20px;
+@media screen and (max-width : 1920px)
+{
+    #burger-menu-wrapper .menu a {
+        font-size:21px;
     }
-    #burger-menu-wrapper .cross{
-        right:20px;
-	}
+
+    #burger-menu-wrapper .menu .client-login a {
+        font-size: 12px;  
+    }
+}
+
+@media screen and (max-width : 1600px)
+{
+    #burger-menu-wrapper .menu a {
+        font-size:19px;
+    }
+
+    #burger-menu-wrapper .menu .client-login a {
+        font-size: 11px;  
+    }
+}
+
+@media screen and (max-width : 1366px)
+{
+    #burger-menu-wrapper .menu a {
+        font-size:16px;
+    }
+
+    #burger-menu-wrapper .menu .client-login a {
+        font-size: 10px;  
+    }
+
+    #burger-menu-wrapper .menu .client-login {
+        top: 140px;
+    }
+}
+
+@media screen and (max-width : 1280px)
+{
+    #burger-menu-wrapper .menu a {
+        font-size:15px;
+    }
+
+    #burger-menu-wrapper .menu .client-login a {
+        font-size: 9px;  
+    }
+
+    #burger-menu-wrapper .menu .client-login {
+        top: 140px;
+    }
+}
+
+@media screen and (max-width : 1024px)
+{
+    #burger-menu-wrapper .menu a {
+        font-size:14px;
+    }
+
+    #burger-menu-wrapper .menu .client-login a {
+        font-size: 8px;  
+    }
+
+    #burger-menu-wrapper .menu .client-login {
+        top: 140px;
+    }
+}
+
+@media screen and (max-width : 800px)
+{
+    #burger-menu-wrapper .menu a {
+        font-size:10px;
+    }
+
+    #burger-menu-wrapper .menu .client-login a {
+        font-size: 8px;  
+    }
+
+    #burger-menu-wrapper .menu .client-login {
+        top: 140px;
+    }
 }

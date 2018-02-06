@@ -22,6 +22,7 @@
 	font-weight: bolder;
 	color: #000;
 	font-size: 12px;
+	line-height: 0em;
 }
 
 #scroll-down-link a:hover {
@@ -157,8 +158,53 @@
 }
 
 
-@media only screen and (max-width: 767px) {
-div#scroll-down-link a{
-  left:50%;
+@media screen and (max-width : 1920px)
+{
+	#scroll-down-link a span {
+		width: 25px;
+		height: 40px;
+	}
+	#scroll-down-link a {
+		font-size: 12px;
+		line-height: 0em;
+	}
 }
+
+@media screen and (max-width : 1600px)
+{
+	#scroll-down-link a span {
+		width: 25px;
+		height: 40px;
+	}
+	#scroll-down-link a {
+		font-size: 12px;
+		line-height: 0em;
+	}
+}
+
+@media screen and (max-width : 1366px)
+{
+	#scroll-down-link a span {
+		width: 22px;
+		height: 35px;
+	}
+	#scroll-down-link a {
+		font-size: 10px;
+		line-height: 0em;
+	}
+}
+
+@media screen and (max-width : 1280px)
+{
+
+}
+
+@media screen and (max-width : 1024px)
+{
+
+}
+
+@media screen and (max-width : 800px)
+{
+
 }

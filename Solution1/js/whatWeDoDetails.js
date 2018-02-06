@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors: ['crew0', 'crew1', 'crew2'],
         menu: '#menu',
-        scrollingSpeed: 1200
+        scrollingSpeed: 1700
     });
 });
 

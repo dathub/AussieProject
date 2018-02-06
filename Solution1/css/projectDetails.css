@@ -11,7 +11,7 @@
 
 .descriptions-box .wrapper-middle {
     width: 100%; 
-    margin-left: 130px;
+    margin-left: 160px;
 }
 
 .descriptions-box .description-header p{
@@ -29,7 +29,7 @@
     font-size: 120px;
 }
 
-.descriptions-box .wrapper-middle p {
+.descriptions-box .wrapper-middle .projectDescription {
     font-family: 'Source Sans Pro';
     font-weight: 300;
     color: #000;
@@ -37,67 +37,80 @@
     width: 53%;
 }
 
+.descriptions-box .wrapper-middle .projectHashTags {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    color: #000;
+    font-size: 17px;
+    width: 53%;
+}
+
+.content-wrapper {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;  
+}
+
+.space-wrapper {
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;  
+}
+
+.legend-wrapper {
+    height: 10vh;
+    width: 90%;
+    margin: 1% 0 0 8% ;
+    position: relative;
+    text-align: left;
+    vertical-align: middle; 
+}
+
+.legend-wrapper .number{
+    font-weight: 700;
+    color: #000;
+    font-size: 14px;
+}
+
+.legend-wrapper .title{
+    font-weight: 700;
+    color: #000;
+    font-size: 22px; 
+}
 
 .image-wrapper {
-    height: 75vh;
+    height: 70vh;
     width: 90%;
     position: relative;
     text-align: center;
     vertical-align: middle;
-    display: flex;
     margin: 0 auto;
 }
 
-.image-wrapper-col-left {
-    flex:1;
-    width: 44%;
-    margin: 0px 1% 0px 0px;
-    height: 100%;
-}
-.image-wrapper-col-right {
-    flex:1;
-    width: 44%;
-    margin: 0px 0px 0px 1%;
-    height: 100%;
-}
-
-.image-wrapper-col-half-top{
-    margin: 0px 0px 4% 0px;
-    height: 48.5%;
-}
-
-.image-wrapper-col-half-bottom{
-    margin: 4% 0px 0px 0px;
-    height: 48.5%;
-}
-
-.image-wrapper .image-wrapper-col-half-top > a > img {
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .image-wrapper .image-wrapper-col-half-bottom > a > img {
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-.image-wrapper .image-wrapper-col-left > a > img {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.image-wrapper .image-wrapper-col-right > a > img {
-    width: 100% !important;
-    height: 100% !important;
-}
-
 .scroll-btn-wrapper {
-    height: 14vh;
+    height: 10vh;
     width: 100%;
     position: relative;
     text-align: center;
     vertical-align: middle;
 }
+
+.image-wrapper .img-horizontal {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .image-wrapper .img-vertical {
+    /* Just in case there are inline attributes */
+    width: auto !important;
+    height: 100% !important;
+  }
+
 
 /* Side title for the crew */
 .side-title {
@@ -146,6 +159,7 @@
 }
 
 
+/* -------------------------- */
 @media screen and (max-width : 1920px)
 {
     .descriptions-box .description-header p{
@@ -255,3 +269,7 @@
         font-size: 11px;
     }
 }
+
+
+
+ 

@@ -11,7 +11,7 @@
 
 .descriptions-box .wrapper-middle {
     width: 100%; 
-    margin-left: 130px;
+    margin-left: 160px;
 }
 
 .descriptions-box .description-header p{
@@ -63,12 +63,12 @@
 
 .image-wrapper-col-half-top{
     margin: 0px 0px 4% 0px;
-    height: 48.5%;
+    height: 48%;
 }
 
 .image-wrapper-col-half-bottom{
     margin: 4% 0px 0px 0px;
-    height: 48.5%;
+    height: 48%;
 }
 
 .image-wrapper .image-wrapper-col-half-top > a > img {
@@ -92,7 +92,7 @@
 }
 
 .scroll-btn-wrapper {
-    height: 14vh;
+    height: 10vh;
     width: 100%;
     position: relative;
     text-align: center;
@@ -144,7 +144,6 @@
     text-decoration: none;
     opacity: .75;
 }
-
 
 @media screen and (max-width : 1920px)
 {
