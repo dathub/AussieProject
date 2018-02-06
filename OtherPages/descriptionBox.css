@@ -1,0 +1,107 @@
+.descriptions-box {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.descriptions-box p {
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #000;
+    font-size: 37px;
+    letter-spacing: 0em;
+    /* line-height: 1.3%; */
+    width:55%;
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+}
+
+.do-not-click-box {
+    margin-left: 10%;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 10%;
+}
+
+.do-not-click-box > a{
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    color: #000;
+    font-size: 12px;
+}
+
+.do-not-click-box img {
+    margin-right:20px;
+}
+
+.do-not-click-box:hover {
+    opacity: .75;
+    text-decoration: none;
+}
+
+.do-not-click-box:hover a{
+    text-decoration: none;
+}
+
+.description-box-wrapper{
+    display: table;
+    height: 100vh;
+}
+
+@media screen and (max-width : 1920px)
+{
+    .descriptions-box p {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width : 1600px)
+{
+    .descriptions-box p {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width : 1366px)
+{
+    .descriptions-box p {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width : 1280px)
+{
+    .descriptions-box p {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width : 1024px)
+{
+    .descriptions-box p {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width : 800px)
+{
+    .descriptions-box p {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 17px;
+    }
+}

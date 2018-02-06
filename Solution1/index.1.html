@@ -26,7 +26,6 @@
 
 
         </style>
-
 	</head>
 	<body>
 		<div id="ip-container" class="ip-container">
@@ -43,7 +42,7 @@
 
 			<!-- main content -->
 			<div class="ip-main" id="">
-				<section id="section0" class="main-banner">
+				<section id="section0" class="main-banner scrollEffect">
 					<div class="main-banner-carousel">
 						<!-- <div class="side-nav">
 							<ul class="side-nav-ul">
@@ -158,7 +157,6 @@
 														</header>
 																
 														<div class="menu">
-														<div>
 															<ul class="menu-ul">
 																<a href="#"><li>home</li></a>
 																<a href="#"><li>our story</li></a>
@@ -170,19 +168,12 @@
 															<ul class="menu-ul-other">
 																<a href="joinOurArmy.html"><li>+ join our army</li></a>
 															</ul>
-															
-															</div>
 															<div class="client-login">
 																<a href="#"><img src="img/home/clientLogin.jpg">CLIENT LOGIN</a>
-															</div>																
+															</div>															
 														</div> 
-<<<<<<< HEAD
 												</div> -->
 												<div class="description-box-wrapper">
-=======
-													</div>
-													<div class="description-box-wrapper">
->>>>>>> 767acfc13ad68a26a8104d8fba304c667e28e156
 														<div class="descriptions-box">
 															<p>we are a creative content studio of artists, creators and makers</p>
 														</div>
@@ -360,7 +351,7 @@
 						</a>
 					</div>
 				</section>
-				<section id="section1">
+				<section id="section1" class="scrollEffect">
 					<div class="content-page">
 						<div class="row">
 							<div class="col-md-4 side-bar left-col">
@@ -487,8 +478,29 @@
 		<script src="js/contentPage.js"></script>
 		<script src="js/ScrollMagic.js"></script>
 		<script src="js/pinContentScrollMagic.js"></script>
-		<script src="js/gspaSmoothScrolling.js"></script>
+		<!--<script src="js/gspaSmoothScrolling.js"></script>
 		<script src="js/TweenMax.min.js"></script>
-		<script src="js/ScrollToPlugin.min.js"></script>
+		<script src="js/ScrollToPlugin.min.js"></script> -->
+		<script src="js/jquery.scrollify.js"></script>
+		<script>
+			$.scrollify({
+			section : ".scrollEffect",
+			// sectionName : "section-name",
+			interstitialSection : "",
+			easing: "easeOutExpo",
+			scrollSpeed: 1200,
+			offset : 0,
+			scrollbars: true,
+			standardScrollElements: "",
+			setHeights: true,
+			overflowScroll: true,
+			updateHash: true,
+			touchScroll:true,
+			before:function() {},
+			after:function() {},
+			afterResize:function() {},
+			afterRender:function() {}
+		});
+		</script>
 	</body>
 </html>
