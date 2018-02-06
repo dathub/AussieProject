@@ -123,3 +123,7 @@ SubHeaders 9pt = 12px (line spacing 11pt = 15px) */
 .bg-image{
 	height:100vh;
 }
+
+.main-wrapper {
+    height:100vh;
+}
