@@ -53,11 +53,3 @@ $( document ).ready(function() {
 		$('.descriptions-box').find('p').html($text);
 	});
 });
-
-$(document).ready(function() {
-    $('#fullpage').fullpage({
-        anchors: ['crew0', 'crew1', 'crew2'],
-        menu: '#menu',
-        scrollingSpeed: 1700
-    });
-});
