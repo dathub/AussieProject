@@ -1,8 +1,12 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors: ['crew0', 'crew1', 'crew2'],
+        anchors: ['crew0', 'crew1'],
         menu: '#menu',
-        scrollingSpeed: 1700
+		scrollingSpeed: 1200,
+        responsiveWidth: 900,
+        afterResponsive: function(isResponsive){
+            
+        }
     });
 });
 
