@@ -10,7 +10,6 @@
 }
 
 .descriptions-box .wrapper-middle {
-    width: 100%; 
     margin-left: 160px;
 }
 
@@ -46,21 +45,12 @@
     position: relative;
     text-align: center;
     vertical-align: middle;
-    display: flex;
     margin: 0 auto;
 }
 
-.image-wrapper-col-left {
-    flex:1;
-    width: 45%;
-    margin: 0px 0.25% 0px 0px;
-    height: 100%;
-}
-.image-wrapper-col-right {
-    flex:1;
-    width: 45%;
-    margin: 0px 0px 0px 0.25%;
-    height: 100%;
+.row{
+	margin-left:0px;
+	margin-right:0px;
 }
 
 .image-wrapper-col-half-top{
@@ -103,27 +93,38 @@
 
 /* Side title for the crew */
 .side-title {
-    width: 450px;
     margin:0;
-    margin-left: 80px;
-    margin-top: -50px;
 
     font-family: 'Source Sans Pro';
     font-weight: bolder;
     color: #000;
     font-size: 12px;
+}
 
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin: left bottom;
-    -moz-transform: rotate(90deg);
-    -moz-transform-origin: left bottom;
-    -ms-transform: rotate(90deg);
-    -ms-transform-origin: left bottom;
-    -o-transform: rotate(90deg);
-    -o-transform-origin: left bottom;
-    transform: rotate(90deg);
-    transform-origin: left bottom;
-    z-index: 10;
+@media screen and (min-width: 480px)
+{
+	.side-title {
+		width: 450px;
+		margin-left: 80px;
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: left bottom;
+		-moz-transform: rotate(90deg);
+		-moz-transform-origin: left bottom;
+		-ms-transform: rotate(90deg);
+		-ms-transform-origin: left bottom;
+		-o-transform: rotate(90deg);
+		-o-transform-origin: left bottom;
+		transform: rotate(90deg);
+		transform-origin: left bottom;
+		z-index: 10;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	.scroll-btn-wrapper{
+		display:none;
+	}
 }
 
  .side-title .member-cross {

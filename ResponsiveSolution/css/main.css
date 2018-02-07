@@ -362,19 +362,19 @@ a:visited {
 
 @media screen and (min-width: 480px)
 {
-.side-title {
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin: left bottom;
-    -moz-transform: rotate(90deg);
-    -moz-transform-origin: left bottom;
-    -ms-transform: rotate(90deg);
-    -ms-transform-origin: left bottom;
-    -o-transform: rotate(90deg);
-    -o-transform-origin: left bottom;
-    transform: rotate(90deg);
-    transform-origin: left bottom;
-    z-index: 10;
-}
+	.side-title {
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: left bottom;
+		-moz-transform: rotate(90deg);
+		-moz-transform-origin: left bottom;
+		-ms-transform: rotate(90deg);
+		-ms-transform-origin: left bottom;
+		-o-transform: rotate(90deg);
+		-o-transform-origin: left bottom;
+		transform: rotate(90deg);
+		transform-origin: left bottom;
+		z-index: 10;
+	}
 }
 
 /* Show more projects */
