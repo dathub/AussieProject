@@ -13,7 +13,7 @@
     
 		<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/burgerMenu.css" />
-		<link rel="stylesheet" type="text/css" href="css/scrollButton.css">
+		<link rel="stylesheet" type="text/css" href="css/scrollDownButton.css">
 		<link rel="stylesheet" type="text/css" href="css/sideNavBar.css">
 		<link rel="stylesheet" type="text/css" href="css/listenBox.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">	
@@ -256,11 +256,33 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 		<!-- /scripts -->
+		<script src="js/scrollDownButton.js"></script>
 		<script src="js/burgerMenu.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/ScrollMagic.js"></script>
 		<script src="js/TweenMax.min.js"></script>
 		<script src="js/ScrollToPlugin.min.js"></script>
 		<script src="js/scrollingEffects.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollify.js"></script>
+		<script>
+			$.scrollify({
+			section : ".scrollEffect",
+			interstitialSection: "",
+			easing: "easeOutExpo",
+			scrollSpeed: 1500,
+			offset: 0,
+			scrollbars: true,
+			target:"html,body",
+			standardScrollElements: false,
+			setHeights: false,
+			overflowScroll:true,
+			updateHash: true,
+			touchScroll:true,
+			before:function() {},
+			after:function() {},
+			afterResize:function() {},
+			afterRender:function() {}
+		});
+		</script>
 	</body>
 </html>
