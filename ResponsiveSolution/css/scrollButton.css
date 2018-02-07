@@ -157,12 +157,6 @@
 }
 
 
-@media only screen and (max-width: 767px) {
-div#scroll-down-link a{
-  	left:50%;
-}
-}
-
 /* ---------------------------------------------------------------------------------------------------------- */
 /* Back To Top Button */
 #scroll-top-link{
@@ -233,3 +227,11 @@ box-sizing: border-box;
 }
 }
 /* ----------------------------------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+	#scroll-top-link {
+		display: none;
+	}
+	#scroll-down-link {
+			display: none;
+	}
+}

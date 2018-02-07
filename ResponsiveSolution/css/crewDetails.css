@@ -1,3 +1,7 @@
+.memberSection {
+    height: 100vh;
+}
+
 .descriptions-crew {
     width: 100%;
     position: relative;
@@ -148,7 +152,20 @@
 
 
 /* -------------------------- */
- 
+@media (max-width: 767px) {
+    .content-wrapper {
+        height: auto;
+	}
+    .image-wrapper {
+        height: auto;
+    }
+    .space-wrapper {
+        height: 0px;
+    }
+    .scroll-btn-wrapper {
+        height: 0px;
+    }
+}
 
 
 

@@ -1,24 +1,23 @@
-$(document).ready(function() {
-    $('#fullpage').fullpage({
-        anchors: ['member1', 'member2', 'member3', 'member4', 'member5', 'member6'],
-        scrollingSpeed: 1200
-    });
-});
-
-
 function fadeElement(element, replacements) {
-    $(element).fadeOut(700, function() {
-        $(element).hide(function() {
-
-            for(var key in replacements) {
-                var value = replacements[key];
-                $(element).find(key).html(value);
-            }
-
-            $(element).fadeIn(1500);
-        });
-    });
+    for(var key in replacements) {
+        var value = replacements[key];
+        $(element).find(key).html(value);
+    }
 }
+
+// function fadeElement(element, replacements) {
+//     $(element).fadeOut(700, function() {
+//         $(element).hide(function() {
+
+//             for(var key in replacements) {
+//                 var value = replacements[key];
+//                 $(element).find(key).html(value);
+//             }
+
+//             $(element).fadeIn(1500);
+//         });
+//     });
+// }
 
 function getMemeberDetails(hash) {
     var memeberName = "";
@@ -59,23 +58,40 @@ function getMemeberDetails(hash) {
     return [memeberName,memberDesignation,memberDescription];
 }
 
+function writeDescription(newHash) {
+    var memInfo = getMemeberDetails(newHash);
+    
+    var sideTital = document.getElementsByClassName('side-title');
+    var descriptionCrew = document.getElementsByClassName('descriptions-crew');
+
+    var sideTitleReplacememtns = {"h2":memInfo[0]};
+    var descriptionCrewReplacements = {".name":memInfo[0],".designation":memInfo[1],".details":memInfo[2]};
+
+
+    fadeElement(sideTital, sideTitleReplacememtns);
+    fadeElement(descriptionCrew, descriptionCrewReplacements);
+}
+
+$(document).ready(function() {
+    writeDescription();
+    
+    $('#fullpage').fullpage({
+        anchors: ['member1', 'member2', 'member3', 'member4', 'member5', 'member6'],
+        scrollingSpeed: 1200,
+        scrollOverflow: false,
+        responsiveWidth: 900,
+        afterResponsive: function(isResponsive){
+            
+        }
+    });
+});
+
 $(window).bind('hashchange', function(){
     
         var newHash = window.location.hash.substring(1);
         if (newHash) {
-            var memInfo = getMemeberDetails(newHash);
-
-            var sideTital = document.getElementsByClassName('side-title');
-            var descriptionCrew = document.getElementsByClassName('descriptions-crew');
-
-            var sideTitleReplacememtns = {"h2":memInfo[0]};
-            var descriptionCrewReplacements = {".name":memInfo[0],".designation":memInfo[1],".details":memInfo[2]};
-
-
-            fadeElement(sideTital, sideTitleReplacememtns);
-            fadeElement(descriptionCrew, descriptionCrewReplacements);
-        };
-        
+            writeDescription(newHash);
+        };      
 });
     
 $(window).trigger('hashchange');
