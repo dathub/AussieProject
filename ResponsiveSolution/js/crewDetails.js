@@ -79,6 +79,8 @@ $(document).ready(function() {
         anchors: ['member1', 'member2', 'member3', 'member4', 'member5', 'member6'],
         scrollingSpeed: 1200,
         scrollOverflow: false,
+        verticalCentered: false,
+        css3: true,
         responsiveWidth: 900,
         afterResponsive: function(isResponsive){
             

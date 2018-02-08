@@ -48,8 +48,7 @@
 
 .row{
 	margin-left:0px;
-    margin-right:0px;
-    padding: 0px;
+	margin-right:0px;
 }
 
 .image-wrapper-col-left {
@@ -73,12 +72,12 @@
 .image-wrapper .image-wrapper-col-half-top > a > img {
     width: 100% !important;
     height: 100% !important;
-}
+  }
 
-.image-wrapper .image-wrapper-col-half-bottom > a > img {
+  .image-wrapper .image-wrapper-col-half-bottom > a > img {
     width: 100% !important;
     height: 100% !important;
-}
+  }
 
 .image-wrapper .image-wrapper-col-left > a > img {
     width: 100% !important;
@@ -134,7 +133,7 @@
 	}
 }
 
-.side-title .member-cross {
+ .side-title .member-cross {
     margin-right:30px; 
     background:none;
     border:0;

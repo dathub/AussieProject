@@ -1,6 +1,12 @@
-.memberSection {
-    height: 100vh;
+.row{
+	margin-left:0px;
+    margin-right:0px;
+    padding: 0px;
 }
+
+/* .memberSection {
+    height: 100vh;
+} */
 
 .descriptions-crew {
     width: 100%;
@@ -56,11 +62,11 @@
 
 .description-crew-wrapper{
     display: table;
-    height: 100vh;
+    height: 75vh;
 }
 
 .content-wrapper {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     position: relative;
     text-align: center;
@@ -68,7 +74,7 @@
 }
 
 .space-wrapper {
-    height: 8vh;
+    height: 0vh;
     width: 100%;
     position: relative;
     text-align: center;
@@ -76,7 +82,7 @@
 }
 
 .image-wrapper {
-    height: 80vh;
+    height: 75vh;
     width: 100%;
     position: relative;
     text-align: center;
@@ -109,6 +115,7 @@
     width: 450px;
     margin:0;
     margin-left: 40px;
+    margin-top: -50px;
     top:-60px;
 
     font-family: 'Source Sans Pro';
