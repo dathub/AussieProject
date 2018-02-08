@@ -1,34 +1,47 @@
-.descriptions-crew {
+.row{
+	margin:0px;
+    padding: 0px;
+}
+
+.description-box-wrapper{
+    display: table;
+    height: 80vh;
     width: 100%;
-    position: relative;
+}
+
+.descriptions-box {
     vertical-align: middle;
     display: table-cell;
-	padding: 20%;
 }
 
-.descriptions-crew p {
+.descriptions-box .wrapper-middle {
+    margin-left: 160px;
+}
+
+.descriptions-box .description-header p{
     font-family: 'Source Sans Pro';
+    font-weight: 700;
     color: #000;
-    font-size: 40px;
-    display: inline-block;
-    text-align: left;
-    margin: 0px;
+    font-size: 74px;
+    letter-spacing: 0em;
 }
 
-.descriptions-crew h2 {
+.descriptions-box .wrapper-middle .description-bar p{
     font-family: 'Source Sans Pro';
-	font-weight: bold;
+    font-weight: 100;
     color: #000;
-    font-size: 48px;
-    display: inline-block;
-    text-align: left;
-    margin: 0px;
+    font-size: 120px;
+    width: 50%;
 }
 
-.description-crew-wrapper{
-    display: table;
-    height: 100vh;
+.descriptions-box .wrapper-middle p {
+    font-family: 'Source Sans Pro';
+    font-weight: 1000;
+    color: #000;
+    font-size: 24px;
+    width: 53%;
 }
+
 
 .right-col > .bg {
     height:100vh !important;
@@ -47,47 +60,6 @@
 
 .right-col-apply > h1{
 	top: 30%;
-}
-
-.description-box-wrapper{
-    display: table;
-    height: 100vh;
-    width: 100%;
-}
-
-
-.descriptions-box {
-    vertical-align: middle;
-    display: table-cell;
-}
-
-.descriptions-box .wrapper-middle {
-    width: 100%; 
-    margin-left: 160px;
-}
-
-.descriptions-box .description-header p{
-    font-family: 'Source Sans Pro';
-    font-weight: 1000;
-    color: #000;
-    font-size: 60px;
-}
-
-.descriptions-box .wrapper-middle .description-bar p{
-    font-family: 'Source Sans Pro';
-    font-style: initial;
-    font-weight: 100;
-    color: #000;
-    font-size: 120px;
-}
-
-.descriptions-box .wrapper-middle p {
-    font-family: 'Roboto';
-    font-weight: 700;
-    color: #000;
-    font-size: 37px;
-    letter-spacing: 0em;
-    width: 55%;
 }
 
 /* Enquire Button Begin */
@@ -289,3 +261,9 @@ form .form-icons .fa {
 	color: white;
 }
 /*end form*/
+
+@media (max-width: 767px) {
+    .side-title {
+        display: none;
+    }
+}
