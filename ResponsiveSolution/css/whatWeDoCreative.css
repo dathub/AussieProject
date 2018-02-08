@@ -1,0 +1,181 @@
+.description-box-wrapper{
+    display: table;
+    height: 80vh;
+    width: 100%;
+}
+
+.descriptions-box {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.descriptions-box .wrapper-middle {
+    margin-left: 160px;
+}
+
+.descriptions-box .description-header p{
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    color: #000;
+    font-size: 74px;
+    letter-spacing: 0em;
+}
+
+.descriptions-box .wrapper-middle .description-bar p{
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+    color: #000;
+    font-size: 120px;
+    width: 50%;
+}
+
+.descriptions-box .wrapper-middle p {
+    font-family: 'Source Sans Pro';
+    font-weight: 1000;
+    color: #000;
+    font-size: 24px;
+    width: 53%;
+}
+
+
+.image-wrapper {
+    width: 90%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.legend-wrapper {
+    width: 90%;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;  
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    color: #000;
+    font-size: 24px;   
+}
+
+.row{
+	margin-left:0px;
+    margin-right:0px;
+    padding: 0px;
+}
+
+.image-wrapper-col-left {
+    padding: 1%;
+}
+
+.image-wrapper-col-right {
+    padding: 1%;
+}
+
+.image-wrapper-col-half-top{
+    margin: 0px 0px 4% 0px;
+    height: 50%;
+}
+
+.image-wrapper-col-half-bottom{
+    margin: 4% 0px 0px 0px;
+    height: 50%;
+}
+
+.image-wrapper .image-wrapper-col-half-top > a > img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.image-wrapper .image-wrapper-col-half-bottom > a > img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.image-wrapper .image-wrapper-col-left > a > img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.image-wrapper .image-wrapper-col-right > a > img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.scroll-btn-wrapper {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Side title for the crew */
+.side-title {
+    margin:0;
+
+    font-family: 'Source Sans Pro';
+    font-weight: bolder;
+    color: #000;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 480px)
+{
+	.side-title {
+		width: 450px;
+		margin-left: 80px;
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: left bottom;
+		-moz-transform: rotate(90deg);
+		-moz-transform-origin: left bottom;
+		-ms-transform: rotate(90deg);
+		-ms-transform-origin: left bottom;
+		-o-transform: rotate(90deg);
+		-o-transform-origin: left bottom;
+		transform: rotate(90deg);
+		transform-origin: left bottom;
+		z-index: 10;
+	}
+}
+
+.side-title .member-cross {
+    margin-right:30px; 
+    background:none;
+    border:0;
+    font-size:6em;
+    line-height:60px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:50;
+    float: left;
+    color: #000;
+    text-decoration: none;
+}
+
+.side-title .member-cross:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+}
+
+.image-wrapper .img-horizontal {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .image-wrapper .img-vertical {
+    /* Just in case there are inline attributes */
+    width: auto !important;
+    height: 100% !important;
+  }
+
+@media (max-width: 767px) {
+    .side-title {
+        display: none;
+    }
+    .scroll-btn-wrapper{
+		display:none;
+	}
+}
