@@ -69,12 +69,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align:center;
-	width: 100%;
+    width: 100%;
 }
 
 .enquire-wrapper-apply{
-	top: 55%;
-	width: auto;
+	top: 50%;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
 }
 
 .enquire-wrapper .enquire-btn{
@@ -119,10 +123,10 @@
     margin:0;
     position: absolute;
     top: 20%;
-    right: -10%;
+    right: -100px;
     font-family: 'Source Sans Pro';
     font-weight: bolder;
-    color: #000;
+    color: #fff;
     font-size: 12px;
 
     -webkit-transform: rotate(90deg);
@@ -165,7 +169,7 @@
     cursor:pointer;
     outline:none;
     z-index:50;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     width: 20px;
     height: 20px;
@@ -179,7 +183,7 @@
 }
 
 .side-title .member-cross:hover {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     opacity: .75;
 }
