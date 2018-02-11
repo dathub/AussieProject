@@ -1,5 +1,4 @@
 body {
-    overflow:hidden;
 }
 
 .right-col > .bg {
@@ -40,8 +39,7 @@ body {
 }
 
 .descriptions-box .wrapper-middle {
-    width: 100%; 
-    margin-left: 160px;
+    width: 100%;
 }
 
 .descriptions-box .description-header p{
@@ -260,4 +258,10 @@ input[type="text"]:focus,
 select.form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+@media (max-width: 767px) {
+    .side-title {
+        display: none;
+    }
 }
