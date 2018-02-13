@@ -76,7 +76,7 @@ $(function(){
 			href = $this.attr("href"),
 			topY = $(href).offset().top;
 	   
-		TweenMax.to($window, 2.0, {
+		TweenMax.to($window, 1.2, {
 			scrollTo:{
 				y: topY, 
 				autoKill: true

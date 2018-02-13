@@ -57,6 +57,12 @@ a:visited {
     .side-bar {
         display: none;
     }
+    /* .bg-image{
+        height:50vh;
+    }
+    .carousel-wrapper{
+        height:50vh;
+    } */
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
@@ -112,6 +118,15 @@ a:visited {
 .description-box-wrapper {
     height: 80vh;
     display: table;
+}
+
+@media (max-width: 767px) {
+    .descriptions-box p {
+        font-size: 4vw;
+    }
+    .description-box-wrapper {
+        height: 40vh;
+    }
 }
 
 /* End 0f Description Box */
@@ -182,12 +197,14 @@ a:visited {
 .carousel-caption
 {
 	position: absolute;
-	right: 0;
-	top: 40%;
-	left: 0;
+	/* right: 0; */
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+	/* left: 0; */
 	z-index: 10;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	/* padding-top: 20px;
+	padding-bottom: 20px; */
 	margin:auto;
 	width: 70%;
 }
@@ -222,8 +239,9 @@ a:visited {
 
 @media only screen and (max-width: 767px) {
 	ol.carousel-indicators{
-		left:50%;
-	}
+        /* left:50%; */
+        display:none;
+    }
 }
 
 /* End of Carousel */
@@ -422,6 +440,6 @@ a:visited {
 }
 
 .space-occupier {
-    height: 12vh;
+    height: 15vh;
 }
 /* End of Content Page - Section2 of Main Page */

@@ -51,3 +51,9 @@
     height: 80px;
     z-index: 10;
 }
+
+@media (max-width: 767px) {
+    .side-nav {
+        display: none;
+    }
+}
