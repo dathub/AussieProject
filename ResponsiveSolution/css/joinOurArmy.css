@@ -73,7 +73,6 @@
 }
 
 .enquire-wrapper-apply{
-	top: 50%;
     width: auto;
     position: absolute;
     left: 50%;
@@ -214,6 +213,7 @@ form .form-icons .fa {
 .input-group{
 	margin: 20px;
 	font-size: x-large;
+	display: flex;
 }
 
 .text-line {
@@ -270,4 +270,12 @@ form .form-icons .fa {
     .side-title {
         display: none;
     }
+	
+}
+
+@media (min-width: 767px) {
+    .enquire-wrapper-apply {
+        top: 50%;
+    }
+	
 }
