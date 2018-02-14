@@ -248,6 +248,25 @@
   text-align: center;
 }
 
+.row {
+   margin-left: 15px !important;
+   margin-right: 15px !important;
+}
+
+.placeholder-image{
+	height : 100%;
+	width: 100%;
+}
+
+.long-div {
+    height:400px;
+	padding : 15px;
+}
+.short-div {
+    height:200px;
+	padding : 15px;
+}
+
 @media (max-width: 767px) {
     .side-title {
         display: none;
