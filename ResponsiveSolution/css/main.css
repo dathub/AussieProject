@@ -1,5 +1,7 @@
 .row {
     margin:0;
+    padding: 0;
+    width:100%;
 }
 
 a {
@@ -28,6 +30,18 @@ a:visited {
     padding: 0;
 }
 
+/* .scrollEffect {
+    height:100vh;
+}
+
+.item.container {
+    height:100vh;
+} */
+
+#scroll-down-link.scrollBtn {
+    bottom: -20px;
+}
+
 .left-col {
     padding: 0;
     height: 100vh;
@@ -43,11 +57,12 @@ a:visited {
 }
 
 .bg-image{
-	height:100vh;
+    height:100vh;
+    width:100%;
 }
 
 .main-wrapper {
-    height:100vh;
+    width:100%;
 }
 
 @media (max-width: 767px) {
@@ -443,3 +458,9 @@ a:visited {
     height: 15vh;
 }
 /* End of Content Page - Section2 of Main Page */
+
+.space-lift{
+    position: absolute;
+    width:100%;
+    height:2vh;
+}

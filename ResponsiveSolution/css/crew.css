@@ -17,15 +17,17 @@
     font-family: 'Source Sans Pro';
     font-weight: 700;
     color: #000;
-    font-size: 74px;
+    font-size: 5vw;
     letter-spacing: 0em;
+    margin:0;
+    padding:0;
 }
 
 .descriptions-box .wrapper-middle .description-bar p{
     font-family: 'Source Sans Pro';
     font-weight: 100;
     color: #000;
-    font-size: 120px;
+    font-size: 8vw;
     width: 50%;
 }
 
@@ -33,8 +35,8 @@
     font-family: 'Source Sans Pro';
     font-weight: 300;
     color: #000;
-    font-size: 17px;
-    width: 53%;
+    font-size: 1vw;
+    width: 75%;
 }
 
 
@@ -112,7 +114,7 @@
 {
 	.side-title {
 		width: 450px;
-		margin-left: 80px;
+		margin-left: 4vw;
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: left bottom;
 		-moz-transform: rotate(90deg);

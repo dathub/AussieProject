@@ -27,15 +27,16 @@
     font-family: 'Source Sans Pro';
     font-weight: 700;
     color: #000;
-    font-size: 74px;
+    font-size: 4vw;
     letter-spacing: 0em;
+    margin: 0;
 }
 
 .descriptions-box .wrapper-middle .description-bar p{
     font-family: 'Source Sans Pro';
     font-weight: 100;
     color: #000;
-    font-size: 120px;
+    font-size: 8vw;
     width: 50%;
 }
 
@@ -43,8 +44,8 @@
     font-family: 'Source Sans Pro';
     font-weight: 300;
     color: #000;
-    font-size: 17px;
-    width: 53%;
+    font-size: 1vw;
+    width: 65%;
 }
 
 .descriptions-box .wrapper-middle .wrapper-middle-htag {
@@ -79,14 +80,15 @@
 
 .legend-wrapper {
     height: 5vh;
-    width: 100%;
+    width: 90%;
     position: relative;
     text-align: left;
     vertical-align: middle;  
     font-family: 'Source Sans Pro';
     font-weight: 700;
     color: #000;
-    font-size: 20px;   
+    font-size: 1.5vw; 
+    line-height: 0.8vw;
 }
 
 .scroll-btn-wrapper {
@@ -155,6 +157,32 @@
     color: #000;
     text-decoration: none;
     opacity: .75;
+}
+
+@media screen and (min-width: 480px)
+{
+	.side-title {
+		width: 450px;
+		margin-left: 2vw;
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: left bottom;
+		-moz-transform: rotate(90deg);
+		-moz-transform-origin: left bottom;
+		-ms-transform: rotate(90deg);
+		-ms-transform-origin: left bottom;
+		-o-transform: rotate(90deg);
+		-o-transform-origin: left bottom;
+		transform: rotate(90deg);
+		transform-origin: left bottom;
+		z-index: 10;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	.scroll-btn-wrapper{
+		display:none;
+	}
 }
 
 

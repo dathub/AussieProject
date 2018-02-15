@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors: ['section0', 'section1'],
+        anchors: ['crew0', 'crew1'],
         menu: '#menu',
 		scrollingSpeed: 1200,
         responsiveWidth: 900,
@@ -14,10 +14,10 @@ $(function() {
     $('#scroll-down-link > a[href*=#]').on('click', function(e) {
       e.preventDefault();
       var url               = window.location.href.split('#'); 
-      if($(this).attr('href')=="#section1") {
-        window.location.href  = url[0] + "#section1";
-      } else if($(this).attr('href')=="#section2") {
-        window.location.href  = url[0] + "#section2";
+      if($(this).attr('href')=="#crew1") {
+        window.location.href  = url[0] + "#crew1";
+      } else if($(this).attr('href')=="#crew2") {
+        window.location.href  = url[0] + "#crew2";
       }
     });
   });
@@ -26,6 +26,6 @@ $(function() {
     $('#scroll-top-link > a[href*=#]').on('click', function(e) {
       e.preventDefault();
       var url               = window.location.href.split('#'); 
-      window.location.href  = url[0] + "#section0"; 
+      window.location.href  = url[0] + "#crew0"; 
     });
   });

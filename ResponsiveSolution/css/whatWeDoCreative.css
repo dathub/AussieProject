@@ -123,7 +123,7 @@
 {
 	.side-title {
 		width: 450px;
-		margin-left: 80px;
+		margin-left: 4vw;
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: left bottom;
 		-moz-transform: rotate(90deg);
