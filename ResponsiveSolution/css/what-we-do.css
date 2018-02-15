@@ -186,7 +186,7 @@
 {
 	.side-title {
 		width: 450px;
-		margin-left: 6vw;
+		margin-left: 0;
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: left bottom;
 		-moz-transform: rotate(90deg);
@@ -249,8 +249,8 @@
 }
 
 .row {
-   margin-left: 15px !important;
-   margin-right: 15px !important;
+   //margin-left: 15px !important;
+   //margin-right: 15px !important;
 }
 
 .placeholder-image{

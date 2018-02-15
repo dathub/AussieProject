@@ -18,7 +18,7 @@ body {
 
 .description-box-wrapper{
     display: table;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -114,10 +114,7 @@ body {
 .side-title .side-text {
     display: inline-block;
     width: 200px;
-    height: 40px;
     margin: auto;
-    vertical-align: middle;
-    position: absolute;
 }
 
 .side-title .side-text h2 {
@@ -128,7 +125,7 @@ body {
  .side-title .member-cross-wrapper .member-cross {
     background:none;
     border:0;
-    font-size:6em;
+    font-size:2em;
     line-height:60px;
     font-weight:bold;
     cursor:pointer;
@@ -136,15 +133,11 @@ body {
     z-index:50;
     color:#fff;
     text-decoration: none;
-    width: 20px;
-    height: 20px;
 }
 
 .side-title .member-cross-wrapper {
     margin-right:20px; 
     display: inline-block;
-    width: 40px;
-    height: 40px;
 }
 
 .side-title .member-cross:hover {
@@ -158,8 +151,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 60%;
-    height:40vh;
+    width: 100%;
     transform: translate(-50%, -50%);
     color: rgb(14, 190, 164);
     text-align: center;
@@ -188,6 +180,7 @@ form .form-icons {
   
   form .form-icons .input-group-label {
       margin: 20px;
+	  margin-left: 0px;
   }
   
   form .form-icons .input-group-field {
@@ -200,8 +193,9 @@ form .form-icons {
   }
   
   .input-group{
-      margin: 20px;
+      margin: 30px;
       font-size: x-large;
+	  display:flex;
   }
   
   .text-line {
@@ -243,6 +237,10 @@ form .form-icons {
       color:#FFFFFF;
   }
   
+  .input-group-content{
+	  margin:auto;
+  }
+  
   .btn{
       font-size: 12px;
       color: white;
@@ -254,11 +252,8 @@ form .form-icons {
   }
   /*end form*/
   .subscribe-btn-wrapper {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align:center;
+    margin: auto;
+    padding: 10px;
 }
 
 .subscribe-btn-wrapper .subscribe-btn{
