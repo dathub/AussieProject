@@ -1,35 +1,7 @@
-/* .descriptions-crew {
-    width: 100%;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
+.row {
+    margin:0;
+    padding: 0;
 }
-
-.descriptions-crew p {
-    font-family: 'Source Sans Pro';
-    color: #000;
-    font-size: 16px;
-    width:60%;
-    display: inline-block;
-    text-align: left;
-    margin: 0px;
-}
-
-.descriptions-crew h2 {
-    font-family: 'Source Sans Pro';
-    color: #000;
-    font-size: 48px;
-    width:60%;
-    display: inline-block;
-    text-align: left;
-    margin: 0px;
-}
-
-.description-crew-wrapper{
-    display: table;
-    height: 100vh;
-} */
 
 #section0{
 	width:100%;
@@ -38,7 +10,7 @@
 
 .description-box-wrapper{
     display: table;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -56,16 +28,18 @@
     font-family: 'Source Sans Pro';
     font-weight: 700;
     color: #000;
-    font-size: 45px;
+    font-size: 3.5vw;
     letter-spacing: 0em;
-    width: 50%;
+    width: 65%;
+    margin: 0;
+    line-height: 2.5vw;
 }
 
 .descriptions-box .wrapper-middle .description-bar p{
     font-family: 'Source Sans Pro';
     font-weight: 100;
     color: #000;
-    font-size: 120px;
+    font-size: 7vw;
     width: 50%;
 }
 
@@ -73,8 +47,8 @@
     font-family: 'Source Sans Pro';
     font-weight: 300;
     color: #000;
-    font-size: 17px;
-    width: 53%;
+    font-size: 1vw;
+    width: 60%;
 }
 
 
@@ -206,6 +180,32 @@
     color: #000;
     text-decoration: none;
     opacity: .75;
+}
+
+@media screen and (min-width: 480px)
+{
+	.side-title {
+		width: 450px;
+		margin-left: 6vw;
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: left bottom;
+		-moz-transform: rotate(90deg);
+		-moz-transform-origin: left bottom;
+		-ms-transform: rotate(90deg);
+		-ms-transform-origin: left bottom;
+		-o-transform: rotate(90deg);
+		-o-transform-origin: left bottom;
+		transform: rotate(90deg);
+		transform-origin: left bottom;
+		z-index: 10;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	.scroll-btn-wrapper{
+		display:none;
+	}
 }
 
 .image-container {
