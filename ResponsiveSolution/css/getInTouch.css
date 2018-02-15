@@ -18,7 +18,7 @@ body {
 
 .description-box-wrapper{
     display: table;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -128,7 +128,7 @@ body {
     margin:0;
     position: absolute;
     top: 20%;
-    right: -9%;
+    right: -5%;
     font-family: 'Source Sans Pro';
     font-weight: bolder;
     color: #000;
