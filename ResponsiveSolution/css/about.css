@@ -412,6 +412,7 @@ a:visited {
     border: 0 none;
     box-shadow: none;
     margin-bottom:7px;
+    text-align:center;
 }
 
 .thumbnail img {
