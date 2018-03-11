@@ -44,18 +44,19 @@
 }
 
 #burger-menu-wrapper .menu .menu-ul {
-    margin-left: 180px; 
+    margin: 0px;
+    margin-left: 140px; 
     padding: 0; 
     list-style-type: none; 
     list-style-image: none;
 }
 
-#burger-menu-wrapper .menu .menu-ul-other {
-    margin-left: 160px; 
-    padding: 100px 0 0 0; 
-    position: relative;
-    list-style-type: none; 
-    list-style-image: none;
+#burger-menu-wrapper .menu .menu-ul span{
+    margin: 0px;
+    margin-left:-30px;
+    margin-right: 10px;
+    padding: 0px; 
+    display: inline;
 }
 
 #burger-menu-wrapper .menu li {
@@ -72,8 +73,9 @@
     font-size:21px;
 }
 
-#burger-menu-wrapper .menu a:hover {
-    text-decoration:underline; 
+#burger-menu-wrapper .menu a:hover { 
+    border-bottom: 4px solid #000000; 
+    padding-bottom:7px;
 }
   
 #burger-menu-wrapper .glyphicon-home {
@@ -115,17 +117,22 @@
     font-family: 'Source Sans Pro';
     font-weight: bolder;
     color: #000;
-    font-size: 12px;  
+    font-size: 12px; 
+    margin-left: 20px; 
 }
 
-#burger-menu-wrapper .menu .client-login a:hover {
+/* #burger-menu-wrapper .menu .client-login a:hover {
     opacity: .75; 
-}
+} */
 
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
 }
+
+/* .underline {
+
+} */
 
 @media only screen and (max-width: 767px) {
 	#burger-menu-wrapper .hamburger{
