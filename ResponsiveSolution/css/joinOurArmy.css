@@ -63,13 +63,21 @@
 }
 
 /* Enquire Button Begin */
-.enquire-wrapper {
+.q-and-a {
     position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align:center;
+    z-index: 1;
+    text-align: center;
     width: 100%;
+    top: 40%;
+}
+
+.q-and-a h1{
+	color:rgb(255, 255, 255);
+}
+
+.enquire-wrapper {
+    text-align: center;
+    margin-top: 6%;
 }
 
 .enquire-wrapper-apply{
@@ -81,17 +89,18 @@
 }
 
 .enquire-wrapper .enquire-btn{
-  border: 2px solid currentColor;
+  border: 4px solid currentColor;
   border-radius: 3rem;
   border-color:rgb(255, 255, 255);
   color: rgb(255, 0, 0);
   background-color: rgb(255, 255, 255);
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 100;
   overflow: hidden;
-  padding: 0.5rem 4rem;
+  padding: 0.6rem 5rem;
   text-decoration: none;
-  z-index: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .enquire-wrapper .transparent-btn{
@@ -114,8 +123,13 @@
 	color: green;
 }
 
+.enquire-wrapper .text-pink{
+	color: pink;
+}
+
 .enquire-wrapper .enquire-btn:hover {
-    opacity: .25;
+    background-color: transparent;
+	color: white;
 }
 /* Enquire Button End */
 .side-title {
