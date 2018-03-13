@@ -37,7 +37,8 @@
 }
 
 .side-nav .side-nav-ul a:hover{
-    opacity: .5;
+    border-bottom: 4px solid #000000; 
+    padding-bottom:7px;
 }
 
 .side-nav .side-nav-ul {

@@ -129,12 +129,35 @@ a:visited {
     display: table;
 }
 
-@media (max-width: 720px) {
+@media only screen and (min-width: 1800px) {
     .descriptions-box p {
-        font-size: 4vw;
+        font-size: 37px;
+        letter-spacing: 0em;
     }
-    .description-box-wrapper {
-        height: 40vh;
+
+    .do-not-click-box > a{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1800px){
+    .descriptions-box p {
+        font-size: 30px;
+        letter-spacing: 0em;
+    }
+
+    .do-not-click-box > a{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width:1500px){
+    .descriptions-box p {
+        font-size: 24px;
+        letter-spacing: 0em;
+    }
+    .do-not-click-box > a{
+        font-size: 10px;
     }
 }
 
@@ -295,6 +318,20 @@ a:visited {
     font-size: 12px;
 }
 
+.subText {
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: #000;
+    font-size: 14px;
+}
+
+.subText a{
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: #000;
+    font-size: 14px;
+}
+
 .footer-col {
     margin: 30px;
     margin-top: 50px;
@@ -313,13 +350,12 @@ a:visited {
 }
 
 .social-logo {
-    margin: 10px;
+    margin: 17px 10px;
     float: left;
 }
 
 .header {
     font-family: 'Roboto';
-    font-style: bold;
     font-weight: 1000;
     color: #000;
     font-size: 18px;
@@ -381,6 +417,7 @@ a:visited {
 .side-title {
     position: absolute;
     width: 250px;
+    height: 60px;
     margin:0;
 
     font-family: 'Source Sans Pro';

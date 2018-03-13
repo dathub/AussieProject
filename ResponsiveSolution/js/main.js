@@ -16,9 +16,11 @@ $(document).ready(function(){
 	$('.descriptions-box').find('p').html($text);
 	
 	$('#myCarousel').on('slide.bs.carousel', function () {
-		$active = $('div.active'),
-		$index = $('div.item').index($active);
-		switch($index){
+
+		var carIndicator = parseInt(document.querySelector('ol.carousel-indicators > li.active').dataset.slideTo);
+		carIndicator = (carIndicator + 1)%5;
+		
+		switch(carIndicator){
 			case 0:
 				$text = "the creative content studio taking on mountains and making waves";
 				break;
@@ -34,9 +36,8 @@ $(document).ready(function(){
 			case 4:
 				$text = "and why?</br></br>because we eat intelliigence for breaky, passion for lunch, courage for dinner and our mums always taught us to share";
 				break;
-			
 		}
-
+		
 		$('.descriptions-box').fadeOut(200, function() {
 			$('.descriptions-box').hide(function() {
 				$('.descriptions-box').find('p').html($text);

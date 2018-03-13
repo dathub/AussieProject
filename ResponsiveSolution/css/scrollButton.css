@@ -235,3 +235,21 @@ box-sizing: border-box;
 			display: none;
 	}
 }
+
+@media only screen and (min-width: 1800px) {
+	#scroll-down-link {
+		bottom: -25px;
+	}
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1800px){
+	#scroll-down-link {
+		bottom: -15px;
+	}
+}
+
+@media only screen and (min-width: 1300px) and (max-width:1500px){
+	#scroll-down-link {
+		bottom: -5px;
+	}
+}
