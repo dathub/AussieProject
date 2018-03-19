@@ -10,23 +10,24 @@ jQuery(document).ready(function(){
 	});
 	
 	$(".slide2-btn").click(function(){
-		$(".descriptions-box > .wrapper-middle > p").html("good answer");
-		setTimeout(slide2transition, 3000);
+		//$(".descriptions-box > .wrapper-middle > p").html("good answer");
+		transition("good answer");
+		setTimeout(slide2transition, 2000);
 	});
 	
 	$(".slide3-btn").click(function(){
-		$(".descriptions-box > .wrapper-middle > p").html("watch yo mouth gurl <br/><br/> jk, jk");
-		setTimeout(slide3transition, 3000);
+		transition("watch yo mouth gurl <br/><br/> jk, jk");
+		setTimeout(slide3transition, 2000);
 	});
 	
 	$(".slide4-btn").click(function(){
-		$(".descriptions-box > .wrapper-middle > p").html("yeah lad");
-		setTimeout(slide4transition, 3000);
+		transition("yeah lad");
+		setTimeout(slide4transition, 2000);
 	});
 	
 	$(".slide5-btn").click(function(){
-		setTimeout(slide5transition, 3000);
-		$(".descriptions-box > .wrapper-middle > p").html("yo-ready");
+		transition("yo-ready");
+		setTimeout(slide5transition, 2000);
 	});
 	
 	$(".wrong").click(function(){
@@ -60,4 +61,14 @@ jQuery(document).ready(function(){
 		$("#slide6").show();
 		$(".descriptions-box > .wrapper-middle > p").html("");
 	}
+
+	function transition($text){
+		var $element = $(".descriptions-box > .wrapper-middle > p");
+		$element.hide();
+		$element.html($text);
+		$element.fadeIn(1000);
+		$element.fadeOut(1000);
+	}
+
+
 });
